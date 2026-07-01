@@ -1,133 +1,139 @@
 <div align="center">
 
-# 🦖 AJINKYA SWAMI
+# 🦖 JURASSIC QA LAB
 
-### QA Automation Engineer • Python • Selenium • API Testing
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=30&duration=3000&pause=1200&color=00FF88&center=true&vCenter=true&width=900&lines=Initializing+Jurassic+QA+Systems...;Containment+Status:+SECURE;QA+Automation+Engineer;Python+•+Selenium+•+API+Testing;Every+Bug+Faces+Extinction"/>
 
-*"Life finds a way... Bugs don't."*
+---
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&pause=1000&color=00FF88&center=true&vCenter=true&width=700&lines=Welcome+to+Jurassic+QA+Lab;Automation+Engineer;Python+%7C+Selenium+%7C+Pytest;API+Testing+%7C+SQL+%7C+Postman;Building+Awesome+Projects+Every+Day" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0f2027,50:203a43,100:2c5364&text=AJINKYA%20SWAMI&fontSize=55&fontColor=00ff88&animation=fadeIn"/>
 
 </div>
 
----
+# 🦖 Welcome to Jurassic QA Lab
 
-# 🦕 About Me
+> **"Life finds a way... Bugs don't."**
 
-I'm a **QA Automation Engineer** with **4+ years of experience** specializing in
-
-- 🤖 Selenium Automation
-- 🐍 Python
-- 🔥 API Testing
-- 🧪 Pytest Framework
-- 🗄 SQL
-- 📱 Mobile Automation
-- 🚀 CI/CD
-- 🌐 Web Automation
-
-I'm passionate about building products that combine **automation, AI and creativity**.
+I'm **Ajinkya Swami**, a QA Automation Engineer passionate about building reliable automation frameworks, testing modern web applications, and creating innovative side projects.
 
 ---
 
-# 🌋 Current Projects
+# 🧬 DNA Profile
 
-🦖 Jurassic Portfolio
+```yaml
+Name: Ajinkya Swami
 
-🛠 Toolique
-> Free engineering & productivity tools
+Experience:
+  - QA Automation
+  - API Testing
+  - Mobile Testing
+  - Python Development
 
-🏗 26AS Studio
-> Architecture & Interior Design Website
+Languages:
+  - Python
+  - SQL
+  - Java
 
-🎮 EcoForge
-> Factorio-inspired automation game
+Automation:
+  - Selenium
+  - Playwright
+  - Appium
+  - Pytest
 
-🛒 Voxelique
-> Premium 3D Printable Marketplace
-
----
-
-# 🧬 Tech Stack
-
-## Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
-
----
-
-## Automation
-
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium)
-
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge)
-
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman)
-
-![Appium](https://img.shields.io/badge/Appium-472FC8?style=for-the-badge)
+Tools:
+  - Git
+  - GitHub
+  - Jenkins
+  - Postman
+```
 
 ---
 
-## Tools
+# 🦕 Active Missions
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode)
+| Mission | Status |
+|---------|--------|
+| 🧪 Selenium Framework | ✅ Active |
+| 📱 Mobile Automation | ✅ Active |
+| 🤖 API Testing | ✅ Active |
+| 🎮 EcoForge Game | 🚀 Building |
+| 🛠 Toolique | 🚀 Live |
+| 🏗 26AS Studio | 🚀 Live |
+| 🦖 Jurassic Portfolio | ⚡ In Progress |
 
 ---
 
-# 📊 GitHub Stats
+# ⚡ Tech Arsenal
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ajinkyaswami1999&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajinkyaswami1999&layout=compact&theme=tokyonight"/>
+<img src="https://skillicons.dev/icons?i=python,java,selenium,postgres,mysql,git,github,vscode,postman,docker,jenkins"/>
 
 </p>
 
 ---
 
-# 🔥 GitHub Streak
+# 📈 Mission Statistics
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=ajinkyaswami1999&theme=tokyonight"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=ajinkyaswami1999&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajinkyaswami1999&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 ---
 
-# 📈 Contribution Graph
+# 🔥 Contribution Streak
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ajinkyaswami1999&theme=github-compact"/>
+<img src="https://streak-stats.demolab.com?user=ajinkyaswami1999&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 ---
 
-# 🐍 Contribution Snake
+# 📊 Activity Graph
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ajinkyaswami1999&theme=react-dark&hide_border=true"/>
 
 </p>
 
 ---
 
-# 🚀 Featured Projects
+# 🏆 Achievements
 
-## 🦖 Jurassic Portfolio
+<p align="center">
 
-Premium cinematic portfolio
+<img src="https://github-profile-trophy.vercel.app/?username=ajinkyaswami1999&theme=algolia&no-frame=true&margin-w=15"/>
+
+</p>
+
+---
+
+# 🦕 Featured Projects
+
+## 🛠 Toolique
+
+Engineering calculators and productivity tools.
+
+⭐ https://www.toolique.in
+
+---
+
+## 🏗 26AS Studio
+
+Architecture & Interior Design Website.
+
+---
+
+## 🎮 EcoForge
+
+Factorio-inspired automation game.
 
 ---
 
@@ -139,62 +145,64 @@ Python + Selenium + Pytest
 
 ## 📱 Mobile Automation
 
-Appium Framework
+Appium Automation Framework
 
 ---
 
-## 🛠 Toolique
+# 🌍 Connect
 
-Free Engineering & Utility Tools
+<p align="center">
+
+<a href="https://www.linkedin.com/in/ajinkya-swami-82751b191">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge"/>
+</a>
+
+<a href="https://www.toolique.in">
+<img src="https://img.shields.io/badge/Toolique-00FF88?style=for-the-badge"/>
+</a>
+
+<a href="mailto:ajinkyaswami1999@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge"/>
+</a>
+
+<a href="https://instagram.com/2ajinkya6">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge"/>
+</a>
+
+</p>
 
 ---
 
-## 🏗 26AS Studio
+# 🦖 Visitor Counter
 
-Architecture Portfolio Website
+<p align="center">
 
----
+<img src="https://komarev.com/ghpvc/?username=ajinkyaswami1999&style=for-the-badge&color=00ff88"/>
 
-## 🎮 EcoForge
-
-Automation Strategy Game
-
----
-
-# 🌎 Connect With Me
-
-💼 LinkedIn
-
-https://linkedin.com/in/ajinkya-swami-82751b191
-
-🌐 Portfolio
-
-https://ajinkyaswami.dev
-
-🛠 Toolique
-
-https://www.toolique.in
-
-📷 Instagram
-
-https://instagram.com/2ajinkya6
-
-📧 Email
-
-ajinkyaswami1999@gmail.com
+</p>
 
 ---
 
 <div align="center">
 
-## 🦕 Visitor Counter
+## ⚠️ WARNING
 
-![](https://komarev.com/ghpvc/?username=ajinkyaswami1999&color=00ff88&style=for-the-badge)
+```
+Containment Level : SECURE
+
+Active Projects : 12
+
+Automation Coverage : Increasing
+
+Critical Bugs : 0
+
+Dinosaurs Escaped : NO
+```
 
 ---
 
-### ⭐ "Quality is never an accident; it is always the result of intelligent automation."
+### ⭐ Every Commit Strengthens the Park
 
-🦖 Thanks for visiting Jurassic QA Lab!
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:203A43,100:2C5364"/>
 
 </div>
