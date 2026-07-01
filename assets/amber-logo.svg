@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <!-- Radial gradient for amber glow -->
+    <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="25%" stop-color="#FFB300" />
+      <stop offset="70%" stop-color="#FF6F00" />
+      <stop offset="100%" stop-color="#3E1B00" />
+    </radialGradient>
+
+    <!-- Glass reflections -->
+    <linearGradient id="glassReflect" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.1" />
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Drop shadow filter -->
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes pulse {
+        0%, 100% { filter: drop-shadow(0 0 2px #FFB300) opacity(0.9); }
+        50% { filter: drop-shadow(0 0 15px #FF6F00) opacity(1); }
+      }
+      .anim-glow { animation: pulse 4s infinite ease-in-out; }
+      .mosquito { fill: #1E0A00; fill-opacity: 0.85; filter: blur(0.5px); }
+      .amber-edge { stroke: #FFE082; stroke-width: 1.5; stroke-opacity: 0.4; }
+    </style>
+  </defs>
+
+  <!-- Ambient background circle for glow -->
+  <circle cx="100" cy="100" r="70" fill="#FF8F00" opacity="0.3" filter="url(#glowFilter)" />
+
+  <!-- Amber Gemstone Body -->
+  <g class="anim-glow">
+    <!-- Asymmetrical organic gemstone shape (faceted/polished amber stone) -->
+    <path d="M 100,25 Q 140,20 165,55 Q 190,90 175,130 Q 160,170 115,178 Q 70,185 45,150 Q 20,115 35,70 Q 50,25 100,25 Z" fill="url(#amberGlow)" />
+    
+    <!-- Mosquito Silhouette inside -->
+    <g class="mosquito" transform="translate(100, 100) scale(0.85) translate(-50, -50)">
+      <!-- Body / Abdomen -->
+      <path d="M 50,55 Q 40,65 30,68 Q 28,63 35,55 Q 42,47 50,45 Q 53,50 50,55 Z" />
+      <path d="M 50,45 Q 55,42 62,45 Q 65,50 58,55 Q 52,60 50,55" /> <!-- Thorax -->
+      <circle cx="66" cy="43" r="4.5" /> <!-- Head -->
+      <!-- Proboscis (Stinger) -->
+      <path d="M 68,43 L 85,38 L 84,39 L 68,44" stroke="#1E0A00" stroke-width="1.2" />
+      <!-- Antennae -->
+      <path d="M 69,41 Q 78,35 76,30" fill="none" stroke="#1E0A00" stroke-width="0.8" />
+      <path d="M 67,40 Q 74,32 71,28" fill="none" stroke="#1E0A00" stroke-width="0.8" />
+
+      <!-- Legs -->
+      <!-- Front Legs -->
+      <path d="M 58,45 Q 65,30 80,25 Q 85,25 78,35 Q 70,45 62,47" fill="none" stroke="#1E0A00" stroke-width="1.5" />
+      <path d="M 56,44 Q 60,25 72,15 Q 75,12 70,22 Q 62,35 58,46" fill="none" stroke="#1E0A00" stroke-width="1.2" />
+      <!-- Middle Legs -->
+      <path d="M 54,48 Q 50,28 42,20 Q 38,18 44,28 Q 50,38 54,50" fill="none" stroke="#1E0A00" stroke-width="1.5" />
+      <path d="M 54,52 Q 45,35 32,28 Q 28,25 35,35 Q 45,45 52,54" fill="none" stroke="#1E0A00" stroke-width="1.5" />
+      <!-- Hind Legs -->
+      <path d="M 50,55 Q 40,75 22,85 Q 15,88 20,80 Q 32,70 48,58" fill="none" stroke="#1E0A00" stroke-width="1.8" />
+      <path d="M 48,57 Q 32,80 12,95 Q 5,100 12,90 Q 25,75 46,60" fill="none" stroke="#1E0A00" stroke-width="1.5" />
+
+      <!-- Wings (Translucent/Veined) -->
+      <!-- Wing 1 -->
+      <path d="M 56,44 Q 65,65 80,92 Q 85,95 82,90 Q 72,75 58,46 Z" fill="#FFE082" fill-opacity="0.3" stroke="#1E0A00" stroke-width="0.8" />
+      <!-- Wing 2 -->
+      <path d="M 54,45 Q 72,60 90,82 Q 95,85 91,80 Q 78,62 56,47 Z" fill="#FFE082" fill-opacity="0.25" stroke="#1E0A00" stroke-width="0.8" />
+    </g>
+
+    <!-- Glass reflections & highlights -->
+    <path d="M 100,25 Q 140,20 165,55 Q 190,90 175,130 Q 160,170 115,178 Q 70,185 45,150 Q 20,115 35,70 Q 50,25 100,25 Z" fill="url(#glassReflect)" />
+    <!-- Polished Facet Lines (Geometric edges of cut amber) -->
+    <path d="M 100,25 L 85,55 L 45,70 M 85,55 L 115,85 M 100,25 L 125,50 L 165,55 M 125,50 L 145,95 L 175,130 M 145,95 L 115,145 L 115,178 M 115,85 L 80,120 L 45,150 M 80,120 L 115,145 M 85,55 L 50,25" fill="none" class="amber-edge" />
+  </g>
+</svg>

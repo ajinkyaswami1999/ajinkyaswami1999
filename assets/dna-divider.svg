@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: none; }
+      .helix-1 { fill: none; stroke: #39FF14; stroke-width: 1.5; filter: drop-shadow(0 0 2px #39FF14); }
+      .helix-2 { fill: none; stroke: #F5B301; stroke-width: 1.5; filter: drop-shadow(0 0 2px #F5B301); }
+      .bond { stroke: #11251B; stroke-width: 1; opacity: 0.7; }
+      
+      @keyframes travel {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(-80px); }
+      }
+      .anim-flow { animation: travel 3s infinite linear; }
+    </style>
+  </defs>
+
+  <rect width="800" height="40" class="bg" />
+
+  <!-- DNA Flow Group -->
+  <g class="anim-flow">
+    <!-- Generating 11 repeating segments of the double helix -->
+    <!-- Segment 0 to 11 -->
+    <g transform="translate(0, 0)">
+      <!-- DNA strand curves repeating -->
+      <path d="M 0,20 Q 20,5 40,20 T 80,20 T 120,20 T 160,20 T 200,20 T 240,20 T 280,20 T 320,20 T 360,20 T 400,20 T 440,20 T 480,20 T 520,20 T 560,20 T 600,20 T 640,20 T 680,20 T 720,20 T 760,20 T 800,20 T 840,20 T 880,20" class="helix-1" />
+      <path d="M 0,20 Q 20,35 40,20 T 80,20 T 120,20 T 160,20 T 200,20 T 240,20 T 280,20 T 320,20 T 360,20 T 400,20 T 440,20 T 480,20 T 520,20 T 560,20 T 600,20 T 640,20 T 680,20 T 720,20 T 760,20 T 800,20 T 840,20 T 880,20" class="helix-2" />
+
+      <!-- Connector Bonds & Base Nodes at intervals of 20px -->
+      <!-- We programmatically generate vertical bonds where the two curves cross/separate -->
+      <!-- Green nodes on strand 1, Amber nodes on strand 2 -->
+      <line x1="20" y1="8" x2="20" y2="32" class="bond" />
+      <circle cx="20" cy="8" r="3" fill="#39FF14" />
+      <circle cx="20" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="60" y1="8" x2="60" y2="32" class="bond" />
+      <circle cx="60" cy="8" r="3" fill="#F5B301" />
+      <circle cx="60" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="100" y1="8" x2="100" y2="32" class="bond" />
+      <circle cx="100" cy="8" r="3" fill="#39FF14" />
+      <circle cx="100" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="140" y1="8" x2="140" y2="32" class="bond" />
+      <circle cx="140" cy="8" r="3" fill="#F5B301" />
+      <circle cx="140" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="180" y1="8" x2="180" y2="32" class="bond" />
+      <circle cx="180" cy="8" r="3" fill="#39FF14" />
+      <circle cx="180" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="220" y1="8" x2="220" y2="32" class="bond" />
+      <circle cx="220" cy="8" r="3" fill="#F5B301" />
+      <circle cx="220" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="260" y1="8" x2="260" y2="32" class="bond" />
+      <circle cx="260" cy="8" r="3" fill="#39FF14" />
+      <circle cx="260" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="300" y1="8" x2="300" y2="32" class="bond" />
+      <circle cx="300" cy="8" r="3" fill="#F5B301" />
+      <circle cx="300" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="340" y1="8" x2="340" y2="32" class="bond" />
+      <circle cx="340" cy="8" r="3" fill="#39FF14" />
+      <circle cx="340" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="380" y1="8" x2="380" y2="32" class="bond" />
+      <circle cx="380" cy="8" r="3" fill="#F5B301" />
+      <circle cx="380" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="420" y1="8" x2="420" y2="32" class="bond" />
+      <circle cx="420" cy="8" r="3" fill="#39FF14" />
+      <circle cx="420" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="460" y1="8" x2="460" y2="32" class="bond" />
+      <circle cx="460" cy="8" r="3" fill="#F5B301" />
+      <circle cx="460" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="500" y1="8" x2="500" y2="32" class="bond" />
+      <circle cx="500" cy="8" r="3" fill="#39FF14" />
+      <circle cx="500" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="540" y1="8" x2="540" y2="32" class="bond" />
+      <circle cx="540" cy="8" r="3" fill="#F5B301" />
+      <circle cx="540" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="580" y1="8" x2="580" y2="32" class="bond" />
+      <circle cx="580" cy="8" r="3" fill="#39FF14" />
+      <circle cx="580" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="620" y1="8" x2="620" y2="32" class="bond" />
+      <circle cx="620" cy="8" r="3" fill="#F5B301" />
+      <circle cx="620" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="660" y1="8" x2="660" y2="32" class="bond" />
+      <circle cx="660" cy="8" r="3" fill="#39FF14" />
+      <circle cx="660" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="700" y1="8" x2="700" y2="32" class="bond" />
+      <circle cx="700" cy="8" r="3" fill="#F5B301" />
+      <circle cx="700" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="740" y1="8" x2="740" y2="32" class="bond" />
+      <circle cx="740" cy="8" r="3" fill="#39FF14" />
+      <circle cx="740" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="780" y1="8" x2="780" y2="32" class="bond" />
+      <circle cx="780" cy="8" r="3" fill="#F5B301" />
+      <circle cx="780" cy="32" r="3" fill="#39FF14" />
+
+      <line x1="820" y1="8" x2="820" y2="32" class="bond" />
+      <circle cx="820" cy="8" r="3" fill="#39FF14" />
+      <circle cx="820" cy="32" r="3" fill="#F5B301" />
+
+      <line x1="860" y1="8" x2="860" y2="32" class="bond" />
+      <circle cx="860" cy="8" r="3" fill="#F5B301" />
+      <circle cx="860" cy="32" r="3" fill="#39FF14" />
+    </g>
+  </g>
+</svg>

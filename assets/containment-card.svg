@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 200" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Orbitron:wght@700&amp;display=swap');
+
+      .bg { fill: #11251B; fill-opacity: 0.9; stroke: #39FF14; stroke-width: 1.5; rx: 8px; }
+      .inner-bg { fill: #08110C; stroke: #11251B; stroke-width: 1; rx: 4px; }
+      .text-header { font-family: 'Orbitron', sans-serif; font-weight: 700; fill: #FFFFFF; font-size: 12px; letter-spacing: 2px; }
+      .text-label { font-family: 'JetBrains Mono', monospace; fill: #9CA3AF; font-size: 9px; }
+      .text-value { font-family: 'JetBrains Mono', monospace; fill: #39FF14; font-size: 10px; font-weight: 700; }
+      
+      .grid-line { stroke: #11251B; stroke-width: 0.5; }
+      .pulse-line { stroke: #39FF14; stroke-width: 1.5; fill: none; filter: drop-shadow(0 0 2px #39FF14); }
+      
+      @keyframes alertFlash {
+        0%, 100% { fill: #E53935; filter: drop-shadow(0 0 4px #E53935); }
+        50% { fill: #11251B; filter: none; }
+      }
+      @keyframes greenFlash {
+        0%, 100% { fill: #39FF14; filter: drop-shadow(0 0 3px #39FF14); }
+        50% { fill: #11251B; filter: none; }
+      }
+      @keyframes pulseGrid {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 30; }
+      }
+      
+      .anim-alert { animation: alertFlash 1s infinite; }
+      .anim-green { animation: greenFlash 1.5s infinite; }
+      .anim-pulse-line { stroke-dasharray: 6, 4; animation: pulseGrid 4s infinite linear; }
+    </style>
+  </defs>
+
+  <!-- Card Container -->
+  <rect width="350" height="200" class="bg" />
+
+  <!-- Corner Tech Accent -->
+  <path d="M 0,20 L 0,0 L 20,0" fill="none" stroke="#39FF14" stroke-width="3" />
+  <path d="M 330,0 L 350,0 L 350,20" fill="none" stroke="#39FF14" stroke-width="3" />
+  <path d="M 0,180 L 0,200 L 20,200" fill="none" stroke="#39FF14" stroke-width="3" />
+  <path d="M 330,200 L 350,200 L 350,180" fill="none" stroke="#39FF14" stroke-width="3" />
+
+  <!-- Header -->
+  <g transform="translate(20, 25)">
+    <text x="0" y="0" class="text-header">PADDOCK CONTAINMENT HUD</text>
+    <line x1="0" y1="8" x2="310" y2="8" stroke="#39FF14" stroke-width="1" opacity="0.3" />
+  </g>
+
+  <!-- Left Stats Block -->
+  <g transform="translate(20, 50)">
+    <rect width="140" height="130" class="inner-bg" />
+    
+    <g transform="translate(10, 20)">
+      <text x="0" y="0" class="text-label">GRID POWER:</text>
+      <text x="80" y="0" class="text-value">99.8%</text>
+
+      <text x="0" y="20" class="text-label">VOLTAGE:</text>
+      <text x="80" y="20" class="text-value" fill="#F5B301">10,000V</text>
+
+      <text x="0" y="40" class="text-label">SEC.LEVEL:</text>
+      <text x="80" y="40" class="text-value">LEVEL 5</text>
+
+      <text x="0" y="60" class="text-label">QA ENGINE:</text>
+      <text x="80" y="60" class="text-value">RUNNING</text>
+
+      <!-- Integrity Bar -->
+      <text x="0" y="85" class="text-label">FENCE INTEGRITY</text>
+      <rect x="0" y="92" width="120" height="8" rx="2" fill="#08110C" />
+      <rect x="0" y="92" width="118" height="8" rx="2" fill="#39FF14" />
+      
+      <!-- System LED indicators -->
+      <circle cx="10" cy="112" r="3" class="anim-green" />
+      <text x="20" y="115" class="text-label" font-size="7">SECURE</text>
+
+      <circle cx="70" cy="112" r="3" fill="#E53935" />
+      <text x="80" y="115" class="text-label" font-size="7">BREACH:0</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Grid Block -->
+  <g transform="translate(180, 50)">
+    <rect width="150" height="130" class="inner-bg" />
+    
+    <!-- Grid pattern inside monitor -->
+    <g opacity="0.15">
+      <line x1="0" y1="20" x2="150" y2="20" class="grid-line" />
+      <line x1="0" y1="40" x2="150" y2="40" class="grid-line" />
+      <line x1="0" y1="60" x2="150" y2="60" class="grid-line" />
+      <line x1="0" y1="80" x2="150" y2="80" class="grid-line" />
+      <line x1="0" y1="100" x2="150" y2="100" class="grid-line" />
+      <line x1="25" y1="0" x2="25" y2="130" class="grid-line" />
+      <line x1="50" y1="0" x2="50" y2="130" class="grid-line" />
+      <line x1="75" y1="0" x2="75" y2="130" class="grid-line" />
+      <line x1="100" y1="0" x2="100" y2="130" class="grid-line" />
+      <line x1="125" y1="0" x2="125" y2="130" class="grid-line" />
+    </g>
+
+    <!-- Scanning laser oscilloscope (Fence Pulse) -->
+    <path d="M 0,65 Q 20,65 30,30 T 40,100 T 55,65 T 90,65 T 100,20 T 115,110 T 125,65 L 150,65" class="pulse-line anim-pulse-line" />
+
+    <!-- Technical labels overlay -->
+    <text x="10" y="15" class="text-label" font-size="8">OSCILLOSCOPE SEC.1</text>
+    <text x="10" y="122" class="text-label" font-size="7" fill="#F5B301">FREQUENCY: 50.4 Hz</text>
+  </g>
+</svg>

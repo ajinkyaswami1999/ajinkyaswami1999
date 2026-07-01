@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;family=Rajdhani:wght@700&amp;display=swap');
+
+      .bg { fill: #08110C; }
+      .warning-stripe { fill: #F5B301; }
+      .warning-stripe-dark { fill: #08110C; }
+      .danger-color { fill: #E53935; }
+      
+      @keyframes flash {
+        0%, 100% { fill: #E53935; filter: drop-shadow(0 0 2px #E53935); }
+        50% { fill: #F5B301; filter: drop-shadow(0 0 8px #F5B301); }
+      }
+      .anim-flash { animation: flash 1s infinite ease-in-out; }
+      .text-alert { font-family: 'Orbitron', sans-serif; font-weight: 900; fill: #E53935; font-size: 14px; letter-spacing: 2px; }
+      .text-sub { font-family: 'Rajdhani', sans-serif; fill: #FFFFFF; font-size: 10px; letter-spacing: 1px; }
+    </style>
+    
+    <pattern id="hazardStripes" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect x="0" y="0" width="10" height="20" fill="#F5B301" />
+      <rect x="10" y="0" width="10" height="20" fill="#08110C" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" class="bg" />
+
+  <!-- Outer Border (Striped Border) -->
+  <rect x="5" y="5" width="190" height="190" fill="url(#hazardStripes)" rx="6" />
+  <!-- Inner Cutout -->
+  <rect x="15" y="15" width="170" height="170" fill="#08110C" rx="4" stroke="#11251B" stroke-width="1.5" />
+
+  <!-- Warning Triangle -->
+  <g transform="translate(100, 95) scale(0.85) translate(-100, -95)">
+    <!-- Yellow Triangle -->
+    <polygon points="100,20 180,150 20,150" fill="#F5B301" stroke="#08110C" stroke-width="4" />
+    <!-- Inner Black Triangle -->
+    <polygon points="100,32 168,142 32,142" fill="#08110C" />
+
+    <!-- Dinosaur Head Hazard Silhouette (T-Rex skull outline) -->
+    <path d="M 100,50 
+             Q 115,50 120,60 
+             Q 125,70 120,80 
+             Q 135,80 135,90 
+             Q 135,100 125,100 
+             L 125,105 
+             Q 115,112 100,112 
+             Q 85,112 75,105 
+             L 75,100 
+             Q 65,100 65,90 
+             Q 65,80 80,80 
+             Q 75,70 80,60 
+             Q 85,50 100,50 Z" class="anim-flash" />
+             
+    <!-- Teeth Cutouts (black triangles overlay) -->
+    <polygon points="108,100 112,100 110,93" fill="#08110C" />
+    <polygon points="114,100 118,100 116,93" fill="#08110C" />
+    <polygon points="120,100 124,100 122,93" fill="#08110C" />
+    <polygon points="92,100 88,100 90,93" fill="#08110C" />
+    <polygon points="86,100 82,100 84,93" fill="#08110C" />
+    <polygon points="80,100 76,100 78,93" fill="#08110C" />
+    
+    <!-- Eye Hole -->
+    <circle cx="112" cy="72" r="4.5" fill="#08110C" />
+    <circle cx="88" cy="72" r="4.5" fill="#08110C" />
+    
+    <!-- Nasal Cavity -->
+    <ellipse cx="100" cy="58" rx="2" ry="4" fill="#08110C" />
+  </g>
+
+  <!-- Alert Text -->
+  <g transform="translate(100, 165)">
+    <text x="0" y="0" text-anchor="middle" class="text-alert">WARNING</text>
+    <text x="0" y="13" text-anchor="middle" class="text-sub">SECURE CONTAINMENT ZONE</text>
+  </g>
+</svg>

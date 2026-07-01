@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #08110C; rx: 6px; stroke: #11251B; stroke-width: 1.5; }
+      .mist { fill: url(#mistGrad); }
+      .leaf-back { fill: #040906; }
+      .leaf-mid { fill: #0d1e15; }
+      .leaf-front { fill: #11251B; }
+      .light-ray { fill: url(#rayGrad); opacity: 0.12; }
+      
+      @keyframes mistMove {
+        0%, 100% { transform: translateY(0px) scaleY(1); }
+        50% { transform: translateY(-5px) scaleY(1.05); }
+      }
+      @keyframes rayPulse {
+        0%, 100% { opacity: 0.08; }
+        50% { opacity: 0.16; }
+      }
+      .anim-mist { animation: mistMove 6s infinite ease-in-out; }
+      .anim-ray { animation: rayPulse 4s infinite ease-in-out; }
+    </style>
+
+    <linearGradient id="mistGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#11251B" stop-opacity="0.7" />
+      <stop offset="60%" stop-color="#11251B" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#08110C" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="rayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39FF14" />
+      <stop offset="100%" stop-color="#08110C" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="300" height="200" class="bg" />
+
+  <!-- Sunbeams / Lighting rays -->
+  <polygon points="0,0 80,0 180,200 40,200" class="light-ray anim-ray" />
+  <polygon points="120,0 190,0 290,200 170,200" class="light-ray anim-ray" style="animation-delay: 2s;" />
+
+  <!-- Background Forest (Deep Silhouettes) -->
+  <!-- Distant Palm Trees -->
+  <path d="M 50,200 L 50,110 Q 30,90 20,80 Q 40,95 50,110 Q 60,95 80,80 Q 70,90 50,110 Z" class="leaf-back" />
+  <path d="M 230,200 L 230,100 Q 210,80 195,70 Q 220,85 230,100 Q 240,85 265,70 Q 250,80 230,100 Z" class="leaf-back" />
+
+  <!-- Mist Layer (Low) -->
+  <rect x="0" y="80" width="300" height="120" class="mist anim-mist" />
+
+  <!-- Midground Foliage (Ferns and Leaves) -->
+  <!-- Large Fern Leaf Left -->
+  <g class="leaf-mid" transform="translate(-10, 100) scale(0.8)">
+    <path d="M 0,100 Q 80,80 120,0 Q 80,30 50,60 Q 20,85 0,100" />
+    <!-- Fronds -->
+    <path d="M 30,73 Q 50,45 80,35 Q 60,55 30,73" />
+    <path d="M 50,57 Q 75,30 95,15 Q 75,40 50,57" />
+    <path d="M 70,41 Q 95,18 110,0 Q 90,25 70,41" />
+  </g>
+  <!-- Fern Leaf Right -->
+  <g class="leaf-mid" transform="translate(190, 90) scale(0.8) rotate(-20, 50, 50)">
+    <path d="M 120,100 Q 40,80 0,0 Q 40,30 70,60 Q 100,85 120,100" />
+    <!-- Fronds -->
+    <path d="M 90,73 Q 70,45 40,35 Q 60,55 90,73" />
+    <path d="M 70,57 Q 45,30 25,15 Q 45,40 70,57" />
+    <path d="M 50,41 Q 25,18 10,0 Q 30,25 50,41" />
+  </g>
+
+  <!-- Foreground Foliage (Sleek Dark Forest elements) -->
+  <path d="M 0,200 Q 40,160 100,180 Q 150,170 200,190 Q 260,165 300,200 Z" class="leaf-front" />
+  
+  <!-- Single detailed Monstera Leaf outline overlay on bottom right -->
+  <g class="leaf-front" transform="translate(220, 130) scale(0.4)" stroke="#39FF14" stroke-width="1.5">
+    <path d="M 80,150 Q 80,50 0,0 Q 80,20 120,80 Q 150,130 80,150 Z" />
+    <!-- Leaf slits -->
+    <path d="M 40,75 L 10,50 M 55,60 L 25,30 M 70,45 L 50,15" />
+    <path d="M 75,100 L 115,80 M 80,85 L 110,60 M 82,70 L 100,45" />
+  </g>
+</svg>

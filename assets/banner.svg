@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Orbitron:wght@400;700;900&amp;family=Rajdhani:wght@500;700&amp;display=swap');
+
+      /* General Styles */
+      .bg { fill: #08110C; }
+      .text-title { font-family: 'Orbitron', sans-serif; font-weight: 900; fill: #FFFFFF; font-size: 32px; letter-spacing: 4px; }
+      .text-subtitle { font-family: 'Rajdhani', sans-serif; font-weight: 700; fill: #39FF14; font-size: 16px; letter-spacing: 6px; }
+      .text-tagline { font-family: 'JetBrains Mono', monospace; fill: #F5B301; font-size: 12px; }
+      .muted { fill: #5A7E65; font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+
+      /* DNA Grid and Lasers */
+      .grid-line { stroke: #11251B; stroke-width: 1; }
+      .laser { stroke: #39FF14; stroke-width: 1.5; opacity: 0.8; filter: drop-shadow(0 0 4px #39FF14); }
+      .laser-danger { stroke: #E53935; stroke-width: 2; opacity: 0.9; filter: drop-shadow(0 0 6px #E53935); }
+
+      /* CSS Animations */
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.9; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(200px); }
+        100% { transform: translateY(0px); }
+      }
+      @keyframes flicker {
+        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 0.9; }
+        20%, 24%, 55% { opacity: 0.2; }
+      }
+      @keyframes rotateDNA {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes typing1 {
+        0% { clip-path: inset(0 100% 0 0); }
+        30%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes typing2 {
+        0%, 30% { clip-path: inset(0 100% 0 0); }
+        60%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes typing3 {
+        0%, 60% { clip-path: inset(0 100% 0 0); }
+        90%, 100% { clip-path: inset(0 0 0 0); }
+      }
+      @keyframes cursor-blink {
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+
+      /* Classes for Animation */
+      .anim-pulse { animation: pulse 4s infinite ease-in-out; }
+      .anim-flicker { animation: flicker 6s infinite; }
+      .anim-scan { animation: scan 8s infinite linear; }
+      .dna-helix { transform-origin: 450px 150px; animation: rotateDNA 40s infinite linear; opacity: 0.15; }
+      
+      .type-line1 { animation: typing1 8s infinite steps(40); clip-path: inset(0 100% 0 0); }
+      .type-line2 { animation: typing2 8s infinite steps(40); clip-path: inset(0 100% 0 0); }
+      .type-line3 { animation: typing3 8s infinite steps(40); clip-path: inset(0 100% 0 0); }
+      .cursor { animation: cursor-blink 1s infinite; fill: #39FF14; }
+
+      /* Volcano path styling */
+      .volcano { fill: #040906; stroke: #11251B; stroke-width: 1; }
+      .lava { fill: #E53935; filter: drop-shadow(0 0 8px #E53935); }
+      .smoke { fill: #11251B; opacity: 0.4; filter: blur(10px); }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="gateGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11251B" />
+      <stop offset="100%" stop-color="#08110C" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5B301" />
+      <stop offset="100%" stop-color="#B27A00" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="0" />
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" class="bg" />
+
+  <!-- Grid System -->
+  <g class="anim-pulse" opacity="0.3">
+    <!-- Vertical lines -->
+    <line x1="50" y1="0" x2="50" y2="300" class="grid-line" />
+    <line x1="150" y1="0" x2="150" y2="300" class="grid-line" />
+    <line x1="250" y1="0" x2="250" y2="300" class="grid-line" />
+    <line x1="350" y1="0" x2="350" y2="300" class="grid-line" />
+    <line x1="450" y1="0" x2="450" y2="300" class="grid-line" />
+    <line x1="550" y1="0" x2="550" y2="300" class="grid-line" />
+    <line x1="650" y1="0" x2="650" y2="300" class="grid-line" />
+    <line x1="750" y1="0" x2="750" y2="300" class="grid-line" />
+    <line x1="850" y1="0" x2="850" y2="300" class="grid-line" />
+    <!-- Horizontal lines -->
+    <line x1="0" y1="50" x2="900" y2="50" class="grid-line" />
+    <line x1="0" y1="150" x2="900" y2="150" class="grid-line" />
+    <line x1="0" y1="250" x2="900" y2="250" class="grid-line" />
+  </g>
+
+  <!-- Isla Nublar Volcano (Mount Sibo) Backdrop -->
+  <g>
+    <!-- Smoke -->
+    <ellipse cx="780" cy="110" rx="40" ry="20" class="smoke anim-pulse" />
+    <ellipse cx="790" cy="90" rx="25" ry="15" class="smoke anim-pulse" />
+    <!-- Volcano -->
+    <path d="M 680,300 L 740,150 L 760,150 L 765,160 L 775,160 L 780,150 L 800,150 L 860,300 Z" class="volcano" />
+    <!-- Lava Vent -->
+    <path d="M 760,150 L 765,160 L 775,160 L 780,150 Q 770,180 768,220 L 765,220 Q 762,180 760,150" class="lava anim-flicker" />
+  </g>
+
+  <!-- Jungle Silhouettes (Foliage) -->
+  <path d="M 0,300 Q 30,260 60,300 Q 90,250 120,300 Q 150,270 180,300 Q 300,240 400,300" fill="#040906" opacity="0.8" />
+  <path d="M 500,300 Q 580,240 650,300 Q 720,230 800,300 Q 850,260 900,300 Z" fill="#040906" opacity="0.8" />
+
+  <!-- DNA double helix decorative rotation background -->
+  <g class="dna-helix">
+    <!-- Helix strands -->
+    <path d="M 350,150 Q 400,100 450,150 T 550,150" fill="none" stroke="#11251B" stroke-width="2" />
+    <path d="M 350,150 Q 400,200 450,150 T 550,150" fill="none" stroke="#11251B" stroke-width="2" />
+    <!-- Nucleotides -->
+    <line x1="390" y1="120" x2="390" y2="180" stroke="#39FF14" stroke-width="1" opacity="0.5" />
+    <line x1="420" y1="135" x2="420" y2="165" stroke="#F5B301" stroke-width="1" opacity="0.5" />
+    <line x1="480" y1="165" x2="480" y2="135" stroke="#E53935" stroke-width="1" opacity="0.5" />
+    <line x1="510" y1="180" x2="510" y2="120" stroke="#39FF14" stroke-width="1" opacity="0.5" />
+  </g>
+
+  <!-- Scanner Laser Line -->
+  <line x1="0" y1="0" x2="900" y2="0" class="laser anim-scan" />
+
+  <!-- T-Rex Hologram Silhouette -->
+  <g transform="translate(60, 80) scale(0.65)" class="anim-flicker">
+    <!-- T-Rex Path -->
+    <path d="M 200,80 Q 220,70 240,65 Q 260,60 280,68 Q 300,75 320,65 Q 330,60 340,65 Q 350,70 355,80 Q 360,95 345,105 Q 330,115 310,112 Q 305,120 295,125 Q 290,135 280,140 Q 270,145 255,145 Q 240,142 230,150 Q 210,165 190,180 Q 170,195 150,210 L 140,210 Q 145,190 148,170 Q 150,150 145,130 Q 140,110 150,95 Q 160,80 180,85 Z" fill="none" stroke="#39FF14" stroke-width="1.5" />
+    <path d="M 280,68 Q 285,78 280,88 Q 275,98 265,100" fill="none" stroke="#39FF14" stroke-width="1" />
+    <circle cx="330" cy="78" r="2" fill="#39FF14" />
+    <!-- Tech lines -->
+    <circle cx="200" cy="80" r="4" fill="none" stroke="#39FF14" stroke-width="1" />
+    <line x1="200" y1="80" x2="160" y2="40" stroke="#39FF14" stroke-width="0.8" stroke-dasharray="2,2" />
+    <text x="100" y="35" font-family="'JetBrains Mono', monospace" font-size="10" fill="#39FF14">SYS.TREX.01: CLASSIFIED</text>
+  </g>
+
+  <!-- Industrial Lab Gates (Left & Right Sides) -->
+  <!-- Left Pillar -->
+  <rect x="0" y="0" width="40" height="300" fill="url(#gateGrad)" stroke="#11251B" stroke-width="2" />
+  <line x1="40" y1="0" x2="40" y2="300" class="laser-danger" />
+  <rect x="10" y="20" width="20" height="40" rx="3" fill="#11251B" />
+  <circle cx="20" cy="40" r="6" fill="#E53935" class="anim-flicker" />
+  <!-- Right Pillar -->
+  <rect x="860" y="0" width="40" height="300" fill="url(#gateGrad)" stroke="#11251B" stroke-width="2" />
+  <line x1="860" y1="0" x2="860" y2="300" class="laser-danger" />
+  <rect x="870" y="20" width="20" height="40" rx="3" fill="#11251B" />
+  <circle cx="880" cy="40" r="6" fill="#F5B301" class="anim-pulse" />
+
+  <!-- Center Console HUD Information -->
+  <g transform="translate(180, 50)">
+    <!-- Glassmorphic HUD Card -->
+    <rect x="-10" y="-10" width="530" height="210" rx="8" fill="#11251B" fill-opacity="0.6" stroke="#39FF14" stroke-opacity="0.3" stroke-width="1.5" />
+    <rect x="-10" y="-10" width="530" height="210" rx="8" fill="url(#glowGrad)" />
+
+    <!-- Corner Deco -->
+    <path d="M -10,15 L -10,-10 L 15,-10" fill="none" stroke="#39FF14" stroke-width="3" />
+    <path d="M 505,-10 L 520,-10 L 520,15" fill="none" stroke="#39FF14" stroke-width="3" />
+    <path d="M -10,185 L -10,200 L 15,200" fill="none" stroke="#39FF14" stroke-width="3" />
+    <path d="M 505,200 L 520,200 L 520,185" fill="none" stroke="#39FF14" stroke-width="3" />
+
+    <!-- Main Title -->
+    <text x="20" y="40" class="text-title anim-flicker">JURASSIC QA LAB</text>
+    <text x="22" y="60" class="text-subtitle">CONTAIN. AUTOMATE. EVOLVE.</text>
+
+    <!-- Lab Terminal Simulation -->
+    <g transform="translate(20, 85)">
+      <!-- Line 1 -->
+      <g class="type-line1">
+        <text x="0" y="15" class="text-tagline">> SYS.INIT: ACCESSING SECURITY NETWORK PADDOCKS...</text>
+      </g>
+      <!-- Line 2 -->
+      <g class="type-line2">
+        <text x="0" y="35" class="text-tagline">> SECURE.integrity_check() == 99.8% [STATUS: ACTIVE]</text>
+      </g>
+      <!-- Line 3 -->
+      <g class="type-line3">
+        <text x="0" y="55" class="text-tagline">> EVERY BUG FACES EXTINCTION. Execution complete.</text>
+      </g>
+      
+      <!-- Blinking Cursor -->
+      <rect x="425" y="45" width="8" height="12" class="cursor" />
+    </g>
+
+    <!-- Paddock System Readings (Bottom HUD) -->
+    <g transform="translate(20, 165)">
+      <text x="0" y="10" class="muted">PADDOCK FENCE: SECURE</text>
+      <rect x="150" y="2" width="80" height="8" rx="2" fill="#08110C" />
+      <rect x="150" y="2" width="79" height="8" rx="2" fill="#39FF14" class="anim-pulse" />
+
+      <text x="260" y="10" class="muted">VOLTAGE: 10,000V</text>
+      <circle cx="390" cy="7" r="4" fill="#39FF14" class="anim-flicker" />
+      
+      <text x="410" y="10" class="muted">CLEARANCE: LEVEL 5</text>
+    </g>
+  </g>
+</svg>

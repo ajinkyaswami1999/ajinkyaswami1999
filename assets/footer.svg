@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Orbitron:wght@700;900&amp;family=Rajdhani:wght@700&amp;display=swap');
+
+      .bg { fill: #08110C; }
+      .grid-line { stroke: #11251B; stroke-width: 1; }
+      .accent-line { stroke: #39FF14; stroke-width: 1; opacity: 0.3; }
+      
+      .text-footer { font-family: 'Orbitron', sans-serif; font-weight: 700; fill: #FFFFFF; font-size: 14px; letter-spacing: 2px; }
+      .text-desc { font-family: 'Rajdhani', sans-serif; fill: #9CA3AF; font-size: 11px; letter-spacing: 1.5px; }
+      .text-code { font-family: 'JetBrains Mono', monospace; fill: #39FF14; font-size: 10px; }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes rotateRadar {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes scanline {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 40; }
+      }
+      @keyframes alertFlash {
+        0%, 100% { fill: #39FF14; filter: drop-shadow(0 0 2px #39FF14); }
+        50% { fill: #08110C; filter: none; }
+      }
+
+      .anim-pulse { animation: pulse 3s infinite ease-in-out; }
+      .anim-radar { transform-origin: 100px 60px; animation: rotateRadar 10s infinite linear; }
+      .anim-scan { stroke-dasharray: 5, 5; animation: scanline 2s infinite linear; }
+      .anim-alert { animation: alertFlash 1.5s infinite; }
+      
+      /* Diagonal pattern for warning stripes */
+      .stripes { fill: url(#warningStripes); }
+    </style>
+
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11251B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#08110C" stop-opacity="1" />
+    </linearGradient>
+
+    <pattern id="warningStripes" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect x="0" y="0" width="10" height="20" fill="#F5B301" />
+      <rect x="10" y="0" width="10" height="20" fill="#08110C" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="120" class="bg" />
+  <rect width="900" height="120" fill="url(#footerGrad)" />
+
+  <!-- Divider lines -->
+  <line x1="0" y1="0" x2="900" y2="0" stroke="#39FF14" stroke-width="2" class="anim-pulse" />
+  <line x1="0" y1="10" x2="900" y2="10" class="grid-line" />
+
+  <!-- Diagonal warning stripes (Industrial boundary) -->
+  <rect x="0" y="110" width="900" height="10" class="stripes" />
+
+  <!-- Radar Scanner HUD (Left) -->
+  <g transform="translate(0, 0)">
+    <!-- Radar Grid Circles -->
+    <circle cx="100" cy="60" r="40" fill="none" stroke="#11251B" stroke-width="1.5" />
+    <circle cx="100" cy="60" r="25" fill="none" stroke="#11251B" stroke-width="1" />
+    <circle cx="100" cy="60" r="10" fill="none" stroke="#11251B" stroke-width="1" />
+    <!-- Axes -->
+    <line x1="60" y1="60" x2="140" y2="60" class="grid-line" />
+    <line x1="100" y1="20" x2="100" y2="100" class="grid-line" />
+    <!-- Scanning sweep line -->
+    <line x1="100" y1="60" x2="100" y2="20" stroke="#39FF14" stroke-width="1.5" opacity="0.7" class="anim-radar" />
+    <!-- Target detected dots -->
+    <circle cx="85" cy="45" r="3" fill="#39FF14" class="anim-pulse" />
+    <circle cx="120" cy="75" r="2.5" fill="#39FF14" opacity="0.5" />
+  </g>
+
+  <!-- Laboratory Console Details (Center) -->
+  <g transform="translate(200, 30)">
+    <!-- Status Card -->
+    <rect x="0" y="0" width="460" height="60" rx="4" fill="#08110C" fill-opacity="0.8" stroke="#11251B" stroke-width="1.5" />
+    <!-- Corner Deco -->
+    <rect x="-2" y="-2" width="6" height="6" fill="#39FF14" />
+    <rect x="456" y="-2" width="6" height="6" fill="#39FF14" />
+    <rect x="-2" y="56" width="6" height="6" fill="#39FF14" />
+    <rect x="456" y="56" width="6" height="6" fill="#39FF14" />
+
+    <text x="20" y="25" class="text-footer">JURASSIC QA LABS</text>
+    <text x="20" y="42" class="text-desc">CONTAINMENT STATUS: <tspan fill="#39FF14" font-weight="bold">SECURE</tspan> | SYSTEM LEVEL: 5</text>
+    
+    <text x="270" y="25" class="text-code">> pytest --containment=active</text>
+    <text x="270" y="42" class="text-code">> PADDOCK_FENCES = TRUE</text>
+  </g>
+
+  <!-- Warning Panel Indicators (Right) -->
+  <g transform="translate(720, 30)">
+    <rect x="0" y="0" width="130" height="60" rx="4" fill="#11251B" stroke="#F5B301" stroke-width="1.5" />
+    <text x="15" y="25" font-family="'Orbitron', sans-serif" font-weight="700" fill="#F5B301" font-size="10" letter-spacing="1">DINO BREED</text>
+    <text x="15" y="45" font-family="'JetBrains Mono', monospace" fill="#FFFFFF" font-size="14" font-weight="700">T-REX</text>
+    
+    <!-- Status LED -->
+    <circle cx="105" cy="30" r="6" class="anim-alert" />
+    <text x="92" y="52" font-family="'Rajdhani', sans-serif" fill="#39FF14" font-size="8" letter-spacing="0.5">ONLINE</text>
+  </g>
+</svg>
