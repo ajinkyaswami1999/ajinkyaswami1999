@@ -1,5 +1,5 @@
 <!-- JURASSIC QA LABS: MAIN CONTROLLER & HEAD HUD PROFILE -->
-<!-- Containment Level: SECURE | Automation Integrity: 99.8% -->
+<!-- Containment Level: SECURE | Automation Integrity: 99.5% -->
 
 <div align="center">
 
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/GRID_STATUS-ACTIVE_//_SECURE-39FF14?style=for-the-badge&logo=smartthings&logoColor=black" alt="Grid Status" />
   </a>
   <a href="https://www.toolique.in">
-    <img src="https://img.shields.io/badge/AUTOMATION_INTEGRITY-99.8%25-F5B301?style=for-the-badge&logo=speedtest&logoColor=black" alt="Automation Integrity" />
+    <img src="https://img.shields.io/badge/AUTOMATION_INTEGRITY-99.5%25-F5B301?style=for-the-badge&logo=speedtest&logoColor=black" alt="Automation Integrity" />
   </a>
 </p>
 
@@ -31,21 +31,21 @@
 ## 🧬 Welcome to the Jurassic QA Control Room
 
 ```
-[SYSTEM LOG: 2026-07-01 15:45:00]
+[SYSTEM LOG: 2026-07-01 16:30:00]
 > Initializing security console...
-> Establishing handshake with Paddock 1 (Velociraptors)... [OK]
-> Establishing handshake with Paddock 2 (T-Rex)... [OK]
+> Establishing handshake with Payworld UPI Networks... [OK]
+> Establishing handshake with eKYC Biometric Peripherals... [OK]
 > Loading Automation Test Framework...
-> Pytest module detected: 1,420 test cases compiled.
+> Pytest & Postman modules detected: Regression library active.
 > Zero containment leaks detected.
 > Life finds a way... Bugs face extinction.
 ```
 
 ### 🦖 Professional Mission Statement
 
-I am **Ajinkya Swami**, a **Senior QA Automation Engineer** with **4+ years of experience** designing, engineering, and reinforcing bulletproof test automation frameworks. Much like an engineer at a high-tech dinosaur containment facility, I believe that **automated verification is the only barrier between control and absolute chaos**. 
+I am **Ajinkya Swami**, a **QA Engineer** with **4+ years of hands-on quality control and testing experience** architecting robust verification systems. Much like a containment engineer at a high-tech dinosaur facility, I believe that **structured quality control is the only boundary between operational safety and system-wide failure**.
 
-In the software development lifecycle, minor code bugs can evolve into catastrophic system failures. My mission is to build advanced test infrastructure using **Python**, **Selenium**, **Playwright**, and **Appium** that isolates, reproduces, and eliminates anomalies before they ever breach the production gates.
+My expertise spans **Python automation**, **manual testing methodologies**, and **API performance testing**. I combine rigorous validation cycles with modern **AI-assisted development** and **search visibility frameworks (SEO, AEO, GEO)** to isolate, diagnose, and resolve defects before products ever reach production gates.
 
 ---
 
@@ -57,47 +57,51 @@ In the software development lifecycle, minor code bugs can evolve into catastrop
 
 ### 🧬 DNA Profile
 
-Below is my professional core profile represented as an industrial laboratory YAML manifest. This catalog defines my skill classification, paddock assignments, and architectural clearance.
+Below is my professional core profile represented as an industrial laboratory YAML manifest. This catalog defines my skill classification, security clearance, and system assignments.
 
 ```yaml
 subject:
   identity:
     name: Ajinkya Swami
     clearance: Level 5 (Root Admin)
-    role: Senior QA Automation Engineer
+    role: QA Engineer
     experience: 4+ Years
-    location: Pune, MH, India
+    location: Gurugram, Haryana, India
     intellectual_base: ajinkyaswami1999
+    contact: ajinkyaswami1999@gmail.com | +91 8875043720
 
   core_genome:
     languages:
-      - Python (Expert)
-      - SQL (Advanced)
-      - TypeScript (Intermediate)
-      - Java (Intermediate)
+      - Python (Advanced)
+      - SQL (MySQL)
       - HTML5 / CSS3 (Advanced)
-    automation_frameworks:
-      - Selenium WebDriver (Web)
-      - Playwright (Web / Headless)
-      - Appium (Mobile Android & iOS)
-      - Pytest (Unit / Integration / System)
-      - Requests / Postman (REST API Verification)
-    infrastructure:
-      - Git & GitHub Actions (CI/CD Pipelines)
-      - Docker Containers (Paddock Isolation)
-      - Jenkins / TeamCity (Automation Schedulers)
-      - AWS Cloud Infrastructure
+    testing_methodologies:
+      - Manual Testing (Functional, Regression, Integration)
+      - SDLC & Agile/Scrum Sprints
+      - Test Case Design & Execution
+      - Device Compatibility & Biometric Integration Testing
+    api_and_performance:
+      - API Testing (Postman / Python Requests)
+      - Load Testing & Traffic Simulation
+      - Request-Response Log Analysis
+      - Data Integrity Auditing
+    ai_and_search_optimization:
+      - AI-Assisted Product Development
+      - Search Engine Optimization (SEO)
+      - Answer Engine Optimization (AEO)
+      - Generative Engine Optimization (GEO)
+      - Google Search Console Analytics
 
-  active_pad_assignments:
-    sector_01: Web Paddock (Selenium & Playwright grid configuration)
-    sector_02: Mobile Paddock (Appium device farm virtualization)
-    sector_03: Data & API Feed (Postman collections & SQL integrity auditing)
-    sector_04: AI Systems Laboratory (Vite, Next.js, Tailwind CSS prototyping)
+  active_assignments:
+    sector_01: UPI Paddock (Mobile payment gateway & core backend APIs)
+    sector_02: eKYC Paddock (Digital onboarding funnels & biometric scanners)
+    sector_03: Rates Paddock (Dynamic pricing calculation engine validation)
+    sector_04: AI Systems Laboratory (Voxelique & Toolique web micro-services)
 
   current_objectives:
-    - Reinforce all Selenium pipelines with Playwright auto-waiting elements.
-    - Implement distributed parallel test runs across a containerized Selenoid grid.
-    - Evolve QA systems with AI-driven visual regression detection tools.
+    - Reinforce log analysis tools with AI-driven pattern recognition.
+    - Expand load-testing coverage to simulate extreme spikes in UPI transactional traffic.
+    - Deploy advanced schema architectures to optimize web portals for generative answer engines.
 ```
 
 ---
@@ -111,7 +115,7 @@ subject:
 
 ## 🖥️ Containment Dashboard
 
-This dashboard visualizes the current real-time metrics of the automated containment grids. Each paddock is mapped to a specific suite of testing automation tools.
+This dashboard visualizes the current real-time metrics of the automated containment grids. Each paddock is mapped to a specific suite of testing tools.
 
 <table width="100%" style="border-collapse: collapse; border: 1px solid #11251B; background-color: #08110C;">
   <tr style="border-bottom: 2px solid #39FF14; background-color: #11251B;">
@@ -122,45 +126,45 @@ This dashboard visualizes the current real-time metrics of the automated contain
     <th align="left" style="padding: 10px; font-family: 'Orbitron', sans-serif; color: #FFFFFF;">Containment Status</th>
   </tr>
   <tr style="border-bottom: 1px solid #11251B;">
-    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 01: Web UI</td>
-    <td style="padding: 10px; color: #9CA3AF;">UI Regression Anomalies</td>
-    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Selenium / Playwright</td>
+    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 01: UPI Mobile App</td>
+    <td style="padding: 10px; color: #9CA3AF;">Functional & API Regression</td>
+    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Postman / Python / MySQL</td>
     <td align="center" style="padding: 10px;">
       <code>[██████████████░] 98%</code>
     </td>
     <td style="padding: 10px; color: #39FF14; font-weight: bold;">⚡ SECURE</td>
   </tr>
   <tr style="border-bottom: 1px solid #11251B;">
-    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 02: API Services</td>
-    <td style="padding: 10px; color: #9CA3AF;">JSON Payload Corruptions</td>
-    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Postman / Python Requests</td>
+    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 02: eKYC Funnel</td>
+    <td style="padding: 10px; color: #9CA3AF;">Biometric Sync & Compliance</td>
+    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Transmission Logs / Peripherals</td>
     <td align="center" style="padding: 10px;">
       <code>[███████████████] 100%</code>
     </td>
     <td style="padding: 10px; color: #39FF14; font-weight: bold;">⚡ SECURE</td>
   </tr>
   <tr style="border-bottom: 1px solid #11251B;">
-    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 03: Mobile App</td>
-    <td style="padding: 10px; color: #9CA3AF;">Device Fragmentation Leaks</td>
-    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Appium (Android/iOS)</td>
+    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 03: Dynamic Rates</td>
+    <td style="padding: 10px; color: #9CA3AF;">Pricing Engine Performance</td>
+    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Functional Test Matrix / Jira</td>
     <td align="center" style="padding: 10px;">
-      <code>[█████████████░░] 92%</code>
+      <code>[█████████████░░] 95%</code>
     </td>
-    <td style="padding: 10px; color: #F5B301; font-weight: bold;">⚠️ MONITORING</td>
+    <td style="padding: 10px; color: #39FF14; font-weight: bold;">⚡ SECURE</td>
   </tr>
   <tr style="border-bottom: 1px solid #11251B;">
-    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 04: Data Registry</td>
-    <td style="padding: 10px; color: #9CA3AF;">Database Sync Violations</td>
-    <td style="padding: 10px; font-family: monospace; color: #F5B301;">PostgreSQL / MySQL</td>
+    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 04: Discovery Engines</td>
+    <td style="padding: 10px; color: #9CA3AF;">Search, AEO & GEO Failures</td>
+    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Google Search Console</td>
     <td align="center" style="padding: 10px;">
       <code>[███████████████] 100%</code>
     </td>
     <td style="padding: 10px; color: #39FF14; font-weight: bold;">⚡ SECURE</td>
   </tr>
   <tr>
-    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Control Room: CI/CD</td>
-    <td style="padding: 10px; color: #9CA3AF;">Unverified Code Deployments</td>
-    <td style="padding: 10px; font-family: monospace; color: #F5B301;">GitHub Actions / Docker</td>
+    <td style="padding: 10px; font-weight: bold; color: #39FF14;">Control Room: Cross-System</td>
+    <td style="padding: 10px; color: #9CA3AF;">GST-Invoice & Payment Gateways</td>
+    <td style="padding: 10px; font-family: monospace; color: #F5B301;">Jira / Agile Workflows</td>
     <td align="center" style="padding: 10px;">
       <code>[██████████████░] 99%</code>
     </td>
@@ -188,45 +192,37 @@ This dashboard visualizes the current real-time metrics of the automated contain
 
 The toolsets utilized in the Jurassic QA Lab are segmented by functional containment category. Each framework is calibrated for zero-latency testing.
 
-### 💻 Programming & Scripting
+### 💻 Programming & Database Genome
 <p align="left">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Badge" />
-  <img src="https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23f7df1e" alt="JavaScript Badge" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Badge" />
-  <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash Shell Badge" />
+  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge" />
   <img src="https://img.shields.io/badge/sql-%2300758f?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge" />
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23f7df1e" alt="JavaScript Badge" />
+  <img src="https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" />
 </p>
 
-### 🤖 Test Automation & Verification
+### 🤖 Verification & Performance Diagnostics
 <p align="left">
-  <img src="https://img.shields.io/badge/selenium-%2343B02A.svg?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Badge" />
-  <img src="https://img.shields.io/badge/playwright-%232EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright Badge" />
-  <img src="https://img.shields.io/badge/appium-%23662d91?style=for-the-badge&logo=appium&logoColor=white" alt="Appium Badge" />
-  <img src="https://img.shields.io/badge/pytest-%230A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest Badge" />
   <img src="https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white" alt="Postman Badge" />
-  <img src="https://img.shields.io/badge/requests_library-007acc?style=for-the-badge&logo=python&logoColor=white" alt="Requests Badge" />
+  <img src="https://img.shields.io/badge/api_testing-007acc?style=for-the-badge&logo=postman&logoColor=white" alt="API Testing" />
+  <img src="https://img.shields.io/badge/load_testing-E53935?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Load Testing" />
+  <img src="https://img.shields.io/badge/log_analysis-F5B301?style=for-the-badge&logo=speedtest&logoColor=black" alt="Log Analysis" />
 </p>
 
-### 🛠️ Frontend & AI Prototyping
+### 📈 AI & Search Engine Optimization
 <p align="left">
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361dafb" alt="React Badge" />
-  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Badge" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Badge" />
-  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD627" alt="Vite Badge" />
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
+  <img src="https://img.shields.io/badge/google_search_console-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Search Console" />
+  <img src="https://img.shields.io/badge/seo-39FF14?style=for-the-badge&logo=google-analytics&logoColor=black" alt="SEO" />
+  <img src="https://img.shields.io/badge/aeo-F5B301?style=for-the-badge&logo=openai&logoColor=black" alt="AEO" />
+  <img src="https://img.shields.io/badge/geo_optimization-E53935?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GEO" />
 </p>
 
-### ⚙️ DevOps, Platforms & Databases
+### ⚙️ Methodologies, Platforms & Tools
 <p align="left">
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge" />
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
-  <img src="https://img.shields.io/badge/github_actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions Badge" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Badge" />
-  <img src="https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins Badge" />
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL Badge" />
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge" />
+  <img src="https://img.shields.io/badge/jira-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Badge" />
+  <img src="https://img.shields.io/badge/agile_scrum-0d1e15?style=for-the-badge&logo=scrumalliance&logoColor=white" alt="Agile Scrum" />
 </p>
 
 ---
@@ -329,15 +325,15 @@ The following installations represent real-world software packages built to solv
     <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
       <img src="assets/warning.svg" width="120" alt="Toolique Icon" /><br/><br/>
       <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">🛠️ TOOLIQUE</strong><br/>
-      <small style="color: #9CA3AF;">Industrial Calculator Hub</small>
+      <small style="color: #9CA3AF;">Multi-Purpose Web Utilities</small>
     </td>
     <td style="padding: 15px;">
-      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">Mission: High-Precision Calculation Engineering</h3>
+      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">Mission: AI-Driven Utilities Micro-services</h3>
       <p style="color: #FFFFFF; font-size: 13px; line-height: 1.5;">
-        A high-performance portal containing industrial engineering calculators, unit converters, and productivity tools designed for builders and mechanical draftsmen. Built with modern, glassmorphic layout principles. Features instant processing, offline support, and highly intuitive responsive inputs.
+        Conceptualized, developed, and deployed an active online utilities platform providing an array of real-time web micro-services via AI-driven prompt engineering and code generation frameworks. Implemented progressive search optimization structures configured specifically for search engines, LLM response context (AEO), and generative engine matching models (GEO).
       </p>
       <p style="font-size: 12px; color: #9CA3AF; font-family: monospace;">
-        <strong>Tech Genome:</strong> React, Next.js, Tailwind CSS, Vercel Core, JavaScript Math Engines
+        <strong>Tech Genome:</strong> AI-Assisted Full-Stack Development, Prompt Engineering, AEO, GEO, Google Search Console
       </p>
       <div align="left" style="margin-top: 10px;">
         <a href="https://www.toolique.in" style="background-color: #39FF14; color: #08110C; padding: 6px 12px; font-weight: bold; border-radius: 4px; text-decoration: none; font-size: 11px;">🚀 LAUNCH INSTALLED SECTOR</a>
@@ -345,41 +341,20 @@ The following installations represent real-world software packages built to solv
     </td>
   </tr>
 
-  <!-- Project 2: EcoForge -->
-  <tr style="border-bottom: 2px solid #11251B;">
-    <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
-      <img src="assets/volcano.svg" width="120" alt="EcoForge Icon" /><br/><br/>
-      <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">🎮 ECOFORGE</strong><br/>
-      <small style="color: #9CA3AF;">Automation Simulator</small>
-    </td>
-    <td style="padding: 15px;">
-      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">Mission: Resource Optimization Game</h3>
-      <p style="color: #FFFFFF; font-size: 13px; line-height: 1.5;">
-        A Factorio-inspired, grid-based incremental automation game that challenges users to balance energy production, greenhouse gas emissions, and automated factory output. Contains custom simulation metrics, factory assembly lines, and procedural scaling algorithms.
-      </p>
-      <p style="font-size: 12px; color: #9CA3AF; font-family: monospace;">
-        <strong>Tech Genome:</strong> HTML5 Canvas, WebGL, Vanilla CSS, Core JavaScript Game Loops
-      </p>
-      <div align="left" style="margin-top: 10px;">
-        <a href="https://github.com/ajinkyaswami1999" style="background-color: #39FF14; color: #08110C; padding: 6px 12px; font-weight: bold; border-radius: 4px; text-decoration: none; font-size: 11px;">📂 CLONE EXPERIMENT SOURCE</a>
-      </div>
-    </td>
-  </tr>
-
-  <!-- Project 3: Voxelique -->
+  <!-- Project 2: Voxelique -->
   <tr style="border-bottom: 2px solid #11251B;">
     <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
       <img src="assets/dinosaur.svg" width="120" alt="Voxelique Icon" /><br/><br/>
       <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">📦 VOXELIQUE</strong><br/>
-      <small style="color: #9CA3AF;">3D Rendering Lab</small>
+      <small style="color: #9CA3AF;">3D Printed E-Commerce</small>
     </td>
     <td style="padding: 15px;">
-      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">Mission: Procedural Voxel Engine</h3>
+      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">Mission: Voxel 3D Printed storefront</h3>
       <p style="color: #FFFFFF; font-size: 13px; line-height: 1.5;">
-        A web-based 3D editor and viewer designed to build, texture, and export voxel models. Uses Three.js and custom physics layers to simulate collisions, ambient occlusion lighting, and multi-mesh object merging to reduce GPU load.
+        Designed, deployed, and tested a dedicated web e-commerce storefront utilizing AI-assisted development tools to accelerate feature integration and asset management pipelines. Optimized application architecture for discovery engines using structured data schema across SEO, AEO, and GEO.
       </p>
       <p style="font-size: 12px; color: #9CA3AF; font-family: monospace;">
-        <strong>Tech Genome:</strong> Three.js, WebGL, TypeScript, React Three Fiber, Vite
+        <strong>Tech Genome:</strong> 3D Voxel Assets, AI Code Generation, Google Search Console, AEO, GEO, SEO
       </p>
       <div align="left" style="margin-top: 10px;">
         <a href="https://github.com/ajinkyaswami1999" style="background-color: #39FF14; color: #08110C; padding: 6px 12px; font-weight: bold; border-radius: 4px; text-decoration: none; font-size: 11px;">📂 CLONE EXPERIMENT SOURCE</a>
@@ -387,49 +362,7 @@ The following installations represent real-world software packages built to solv
     </td>
   </tr>
 
-  <!-- Project 4: 26AS Studio -->
-  <tr style="border-bottom: 2px solid #11251B;">
-    <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
-      <img src="assets/jungle.svg" width="120" alt="26AS Studio Icon" /><br/><br/>
-      <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">🏗️ 26AS STUDIO</strong><br/>
-      <small style="color: #9CA3AF;">Architecture Portal</small>
-    </td>
-    <td style="padding: 15px;">
-      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">Mission: Premium Architecture Showcase</h3>
-      <p style="color: #FFFFFF; font-size: 13px; line-height: 1.5;">
-        An elegant, luxury interior design and architectural presentation portfolio. Displays structural renders, blueprints, and interactive project journals in a cinematic grid with smooth transitions and immersive media carousels.
-      </p>
-      <p style="font-size: 12px; color: #9CA3AF; font-family: monospace;">
-        <strong>Tech Genome:</strong> Next.js, React, Framer Motion, HSL Theme Systems, CSS Grid
-      </p>
-      <div align="left" style="margin-top: 10px;">
-        <a href="https://github.com/ajinkyaswami1999" style="background-color: #39FF14; color: #08110C; padding: 6px 12px; font-weight: bold; border-radius: 4px; text-decoration: none; font-size: 11px;">🚀 LAUNCH INSTALLED SECTOR</a>
-      </div>
-    </td>
-  </tr>
-
-  <!-- Project 5: QA Automation Framework -->
-  <tr style="border-bottom: 2px solid #11251B;">
-    <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
-      <img src="assets/profile-card.svg" width="120" alt="QA Framework Icon" /><br/><br/>
-      <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">🤖 QA FRAMEWORK</strong><br/>
-      <small style="color: #9CA3AF;">Testing Infrastructure</small>
-    </td>
-    <td style="padding: 15px;">
-      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">Mission: Modular Paddock Testing Engine</h3>
-      <p style="color: #FFFFFF; font-size: 13px; line-height: 1.5;">
-        A highly robust testing core built with Python, Pytest, and Selenium. Features custom HTML reporting, automated logging of DOM states upon exception, concurrent test runner utilities, and Slack Webhook reporting nodes.
-      </p>
-      <p style="font-size: 12px; color: #9CA3AF; font-family: monospace;">
-        <strong>Tech Genome:</strong> Python, Selenium WebDriver, Pytest, Docker, Allure Reporting
-      </p>
-      <div align="left" style="margin-top: 10px;">
-        <a href="https://github.com/ajinkyaswami1999" style="background-color: #39FF14; color: #08110C; padding: 6px 12px; font-weight: bold; border-radius: 4px; text-decoration: none; font-size: 11px;">📂 CLONE EXPERIMENT SOURCE</a>
-      </div>
-    </td>
-  </tr>
-
-  <!-- Project 6: Jurassic Portfolio -->
+  <!-- Project 3: Jurassic Portfolio -->
   <tr>
     <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
       <img src="assets/amber-logo.svg" width="120" alt="Jurassic Portfolio Icon" /><br/><br/>
@@ -462,16 +395,10 @@ Here are optimized prompts to generate premium, cinematic social preview cards (
 1. **Toolique Preview Prompt:**
    > *A high-tech glassmorphic control dashboard in an industrial laboratory at night. Holographic engineering formulas and unit conversion graphs glowing in neon green (#39FF14) and amber (#F5B301) float in the air. The atmosphere is dark, moody, and cinematic, with soft tropical jungle foliage visible through large steel window frames. Clean, premium UI/UX design, 8k resolution, photorealistic, Apple-quality aesthetic.*
 
-2. **EcoForge Preview Prompt:**
-   > *A futuristic factory simulation grid inspired by Factorio, set inside a high-tech greenhouse dome. Miniature conveyor belts glowing with digital circuit tracks transport raw amber crystals. Dark steel machines operate in harmony, with a dramatic active volcano under a starry night sky visible in the distant background. Neon green and deep charcoal color palette, isometric perspective, game UI overlay.*
-
-3. **Voxelique Preview Prompt:**
+2. **Voxelique Preview Prompt:**
    > *A procedural 3D voxel engine editor screen displaying a glowing skeletal dinosaur model being constructed block-by-block. Holographic axes and coordinate grids float around the model. The interface is glassmorphic, clean, and minimal. The background is a dark steel laboratory console with subtle neon green laser lines. Three.js render style, sci-fi HUD elements.*
 
-4. **QA Framework Preview Prompt:**
-   > *An advanced laboratory diagnostics console displaying automated software execution logs and test results. Glowing green checkmarks and radar waves pulse across a dark grid. A warning holographic indicator shows "ALL PADDOCKS SECURE". High voltage cabling, metallic industrial server racks in a dark environment with soft green lighting. Premium tech aesthetics, cyber security vibe.*
-
-5. **Jurassic Portfolio Preview Prompt:**
+3. **Jurassic Portfolio Preview Prompt:**
    > *A cinematic, luxury landing page preview for the Jurassic QA Lab. A massive steel laboratory gate illuminated by pulsating amber hazard lights and laser warning fields. The foreground shows a sleek, transparent holographic ID badge with a glowing dinosaur silhouette. The background is a deep green misty jungle. Premium, state-of-the-art Web design style.*
 </details>
 
@@ -488,26 +415,26 @@ Here are optimized prompts to generate premium, cinematic social preview cards (
 
 ```
 [LAB SCHEDULE: Q3 - Q4 2026]
-> Upgrade Paddock 01 to Playwright asynchronous multi-threaded workers.
-> Construct isolated Selenium nodes in Docker containers using Docker Compose.
-> Integrate visual assertion tools (Applitools / PixelMatch) into the CI pipelines.
+> Upgrade log analyzer tools using automated Python pattern parsing.
+> Expand API Load Testing collection frameworks for transactional endpoints.
+> Implement structured schema layouts across search optimization channels.
 ```
 
-- [x] **Sector 01: Core Web Automation Upgrades**
-  - [x] Configure automated cross-browser test suites (Chrome, Firefox, Edge) using Selenium.
-  - [x] Refactor Page Object Models to include strict typings and clean element locators.
-  - [x] Implement runtime test suite generation via Pytest markers.
-- [/] **Sector 02: Mobile Devices & Device Farms**
-  - [x] Construct Android UI test suites using Appium and Pytest.
-  - [x] Virtualize Android Emulator images inside CI/CD Linux instances.
-  - [ ] Integrate iOS XCUITest drivers for cross-platform compliance.
-- [/] **Sector 03: Full-Stack & API Security**
-  - [x] Write script collections to query and validate JSON REST endpoints.
-  - [ ] Add SQL payload injections into automated DB validation stages.
-  - [ ] Build automated latency monitoring graphs for REST endpoints.
-- [ ] **Sector 04: AI Systems Integration**
-  - [ ] Bootstrap the Next.js visual testing dashboard with AI selector recovery.
-  - [ ] Integrate local LLMs to automatically write simple locator patches when UI code updates.
+- [x] **Sector 01: UPI Paddock Upgrades**
+  - [x] Conduct comprehensive API testing and validation of 6+ core backend APIs to verify structural stability.
+  - [x] Execute heavy load testing on application APIs under simulated high-traffic scenarios.
+  - [x] Authored and executed a library of 150+ regression test cases, reducing production defects by 80%.
+- [x] **Sector 02: eKYC Containment Upgrades**
+  - [x] Direct end-to-end verification workflows for the core digital eKYC onboarding funnel, achieving 100% test coverage.
+  - [x] Conduct device compatibility and integration testing over 90% of biometric scanning devices.
+  - [x] Monitor transmission logs to analyze 98% of data packet handshakes.
+- [/] **Sector 03: Dynamic Rates & DB Auditing**
+  - [x] Led quality control cycles for dynamic pricing calculation engine.
+  - [x] Audit database accuracy and transaction persistence by analyzing request-response log streams.
+  - [ ] Integrate automated schedule alerts in Jira for rate deviation logs.
+- [ ] **Sector 04: AI Systems Laboratory**
+  - [ ] Deploy Next.js e-commerce storefront schemas to optimize discovery engine rankings.
+  - [ ] Automate Search Console indexing status scans using AI search queries.
 
 ---
 
@@ -518,26 +445,40 @@ Here are optimized prompts to generate premium, cinematic social preview cards (
 
 <br/>
 
-## 🏆 Research Honors & Achievements
+## 🏆 Research Honors & Professional Experience
 
-Below are details of critical security validations completed successfully in the line of duty.
+Below are the detailed security containment assignments successfully verified in the line of duty.
 
-### 📜 Professional Timeline
-- **Lead QA Systems Reinforcement Engineer** | *InGen Laboratories* (2024 - Present)
-  - Designed a high-concurrency end-to-end framework processing over 500 integration scenarios daily.
-  - Reduced overall release verification times from 8 hours down to 22 minutes via parallel pipeline setups.
-  - Zero critical containment bugs slipped past the QA gates under my watch.
-- **QA Automation Analyst** | *Biosyn Tech Group* (2022 - 2024)
-  - Spearheaded Selenium and Postman automated testing suites for a multi-million user web platform.
-  - Authored a mock API microservice utilizing Python Flask to bypass third-party service dependency blocks.
-- **Associate Software Engineer (QA)** | *Masrani Systems* (2021 - 2022)
-  - Managed test executions, verified database integrity using complex SQL queries, and maintained regression suites.
+### 📜 Professional Experience Timeline
 
-### 🥇 Certifications
-- **Certified QA Automation Professional** (Selenium / Python Focus)
-  - Validation ID: `JQA-9908-AUT`
-- **Advanced Database Security Analyst** (SQL Profiling)
-  - Validation ID: `JQA-7721-SQL`
+#### **Payworld India, Gurugram — QA Engineer**
+*March 2022 – Present*
+- **UPI Application Testing Paddock:**
+  - Orchestrated end-to-end quality assurance cycles for the corporate UPI (Unified Payments Interface) mobile application across all primary functional components.
+  - Conducted comprehensive API testing and validation of 6+ core backend APIs to verify structural stability, security, and seamless workflow routing.
+  - Executed heavy load testing on application APIs under simulated high-traffic scenarios, sustaining a 95% success rate for targeted baseline response times.
+  - Implemented extensive front-end UI/UX testing covering 100% of user interface elements, accelerating fluid visual navigation and mitigating interaction bugs.
+  - Authored and executed a library of 150+ regression test cases, producing an 80% reduction in production-level product defects.
+  - Audited database accuracy and transaction persistence by analyzing request-response log streams, upholding a 99.5% operational data integrity rate.
+- **eKYC Process Testing Paddock:**
+  - Directed end-to-end verification workflows for the core digital eKYC onboarding funnel, obtaining 100% test coverage against defined compliance requirements.
+  - Validated 95% of operational functional use cases and multi-path user scenarios to guarantee a secure, high-conversion identification workflow.
+  - Conducted device compatibility and integration testing over 90% of authorized hardware peripherals and biometric scanning devices.
+  - Monitored transmission logs to analyze 98% of data packet handshakes, ensuring bulletproof verification security and perfect database synchronization.
+- **Dynamic Rate Plan Module:**
+  - Led complete quality control cycles for the dynamic pricing calculation engine, confirming 100% functional match against business-defined performance and reliability metrics.
+  - Collaborated actively within cross-functional Agile/Scrum sprints, supplying QA insights to engineering teams and accelerating rapid bug remediation.
+  - Compiled exhaustive QA validation artifacts, tracking structured master test plans, detailed matrix reports, and defect logs within Jira.
+- **Cross-Functional Initiatives:**
+  - Contributed specialized QA testing frameworks for high-impact corporate systems, including Targets Creation, GST-Invoice Claim, and core Payment Gateway architectures across 100% of product rollouts.
+
+---
+
+### 🎓 Education
+
+#### **Malaviya National Institute of Technology (MNIT), Jaipur**
+*August 2018 – June 2022*
+- **Bachelor of Technology (B.Tech)** in Metallurgical and Materials Engineering
 
 ---
 
@@ -554,12 +495,10 @@ The laboratory repositories are cataloged by operational sector:
 
 1. **[ajinkyaswami1999/ajinkyaswami1999](file:///c:/AJINKYA/Personal/Projects/Git profile/README.md) [ACTIVE Sector]**
    - The central control room configuration and security directory containing global stats and animations.
-2. **`ajinkyaswami1999/selenium-automation-pytest`**
-   - Sector 1 core: the primary Python-based automation framework engine.
-3. **`ajinkyaswami1999/appium-mobile-automation`**
-   - Sector 2 core: the iOS/Android mobile automation matrix.
-4. **`ajinkyaswami1999/toolique-core`**
-   - Sector 4 core: Next.js engineering tools source.
+2. **`ajinkyaswami1999/toolique-core`**
+   - Sector 4 core: Next.js utilities and microservices.
+3. **`ajinkyaswami1999/voxelique-core`**
+   - Sector 4 core: e-commerce storefront for 3D printed products.
 
 ---
 
@@ -573,27 +512,21 @@ The laboratory repositories are cataloged by operational sector:
 ## ❓ Paddock Security Operations (FAQ)
 
 <details>
-<summary><b>[Q1] How does the lab handle flaky tests under pressure?</b></summary>
+<summary><b>[Q1] How does the lab handle dynamic rate pricing validation?</b></summary>
 <br/>
-All Web paddocks (Selenium/Playwright) implement a dynamic waiting registry. Elements are queried with adaptive waiting rules that scale during system lag (e.g., peak geological activity near Mount Sibo). If an element fails to render within the timeout threshold, a DOM snapshot is written to logs and the grid switches to backup pipelines.
+The dynamic rate modules execute quality control tests that check calculations against strict business performance targets. We run multi-path user test matrixes and analyze request-response logs to ensure that currency conversions, pricing fees, and gateway integrations maintain a 100% functional match.
 </details>
 
 <details>
-<summary><b>[Q2] What security measures prevent code breaches in production?</b></summary>
+<summary><b>[Q2] What measures are taken during UPI application load testing?</b></summary>
 <br/>
-We run multi-tier testing gates. Before any developer commit merges to main, a GitHub Actions runner builds a containerized sandbox representing the entire lab system, executes all regression suites, and returns a binary report. Production builds are locked until this status is set to SECURE.
+Under simulated traffic spikes, we execute transactional script cycles on the backend APIs. System performance monitors track transaction persistence and database integrity rates, ensuring the app maintains a 95% success rate for target response times and a 99.5% data persistence accuracy.
 </details>
 
 <details>
-<summary><b>[Q3] How is device fragmentation tested in Mobile Paddock 03?</b></summary>
+<summary><b>[Q3] How do we verify compliance in the digital eKYC funnel?</b></summary>
 <br/>
-We virtualize multiple Android emulator images on a centralized Selenium grid. Devices are instantiated dynamically, tests are run concurrently using Pytest-xdist, and video logs of screen buffers are encoded directly to storage for engineering inspection.
-</details>
-
-<details>
-<summary><b>[Q4] What happens if a critical database sector sync fails?</b></summary>
-<br/>
-The test suites assert synchronization checkpoints. A system of direct SQL queries audits column checksums in the secondary replica tables against the main master nodes. Any mismatch triggers an instant threat alert and locks down deploy actions.
+We verify eKYC onboarding from end-to-end to ensure 100% compliance test coverage. Verification includes physical peripheral audits (hardware scanner integrations) and data handshake log tracking to secure biometric packet transmissions.
 </details>
 
 ---
@@ -609,12 +542,12 @@ The test suites assert synchronization checkpoints. A system of direct SQL queri
 
 I regularly write logs detailing automation strategies, security measures, and modern coding practices.
 
-* **"Containment Strategy: Eliminating Flaky Tests in Selenium Grid"**
-  - *Summary:* Discusses custom wait wrappers and locator algorithms to prevent race conditions during element resolution.
-* **"Appium virtualized containment: Headless mobile automation in CI pipelines"**
-  - *Summary:* A comprehensive walk-through on spinning up virtual Android environments inside Docker containers for automated app validation.
-* **"SQL Injection Prevention during automated API Payload testing"**
-  - *Summary:* A technical guide detailing how to sanitize dynamic test data inputs to prevent database corruption during test runs.
+* **"Search Visibility Optimization: Architecting Web Apps for AEO and GEO"**
+  - *Summary:* Discusses structural data patterns and schema optimization strategies to ensure web microservices render perfectly inside LLM engines and search consoles.
+* **"UPI Transaction Testing: Validating 6+ backend APIs under heavy load"**
+  - *Summary:* A comprehensive walk-through on simulating transaction spikes and auditing request-response logs to ensure transactional persistence.
+* **"Hardware Peripheral Auditing: Validating biometric scanners in eKYC systems"**
+  - *Summary:* A technical guide detailing compatibility layers and data packet handshake checks for biometric hardware onboarding.
 
 ---
 
@@ -627,7 +560,7 @@ I regularly write logs detailing automation strategies, security measures, and m
 
 ## 🌍 Connect with the Control Room
 
-If you are looking to recruit a senior QA engineer who can safeguard your production pipelines, or if you want to collaborate on next-generation automation frameworks, establish contact via the terminals below:
+If you are looking to recruit a QA engineer who can safeguard your production pipelines, or if you want to collaborate on next-generation testing frameworks, establish contact via the terminals below:
 
 <p align="center">
   <a href="https://linkedin.com/in/ajinkya-swami-82751b191">

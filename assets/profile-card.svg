@@ -53,19 +53,18 @@
   <!-- Employee Info Block (Right) -->
   <g transform="translate(115, 65)">
     <rect width="215" height="100" class="inner-bg" />
-    
     <g transform="translate(15, 20)">
       <text x="0" y="0" class="text-field">NAME:</text>
       <text x="60" y="0" class="text-name">AJINKYA SWAMI</text>
 
       <text x="0" y="18" class="text-field">CLEARANCE:</text>
-      <text x="60" y="18" class="text-val" fill="#E53935">LEVEL 5 (RESTRICTED)</text>
+      <text x="60" y="18" class="text-val" fill="#E53935">LEVEL 5 (PAYWORLD SEC)</text>
 
       <text x="0" y="32" class="text-field">ROLE:</text>
-      <text x="60" y="32" class="text-val">SR. QA AUTOMATION ENG</text>
+      <text x="60" y="32" class="text-val">QA ENGINEER (PAYWORLD)</text>
 
       <text x="0" y="46" class="text-field">SECTOR:</text>
-      <text x="60" y="46" class="text-val">PADDOCKS 1-4 &amp; CONTROL</text>
+      <text x="60" y="46" class="text-val">UPI, EKYC &amp; RATE SYSTEM</text>
 
       <text x="0" y="60" class="text-field">EMPLOYEE ID:</text>
       <text x="60" y="60" class="text-val">#9908-JQA-LABS</text>
