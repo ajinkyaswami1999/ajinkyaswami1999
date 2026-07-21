@@ -13,24 +13,25 @@
   <a href="https://linkedin.com/in/ajinkya-swami-82751b191">
     <img src="https://img.shields.io/badge/SECURITY_CLEARANCE-LEVEL_5-E53935?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Clearance Level 5" />
   </a>
+  &nbsp;
   <a href="mailto:ajinkyaswami1999@gmail.com">
     <img src="https://img.shields.io/badge/GRID_STATUS-ACTIVE_//_SECURE-39FF14?style=for-the-badge&logo=smartthings&logoColor=black" alt="Grid Status" />
   </a>
+  &nbsp;
   <a href="https://www.toolique.in">
     <img src="https://img.shields.io/badge/AUTOMATION_INTEGRITY-99.5%25-F5B301?style=for-the-badge&logo=speedtest&logoColor=black" alt="Automation Integrity" />
-  </a>
-  <a href="mailto:ajinkyaswami1999@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL_TERMINAL-ajinkyaswami1999%40gmail.com-00758f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Terminal" />
   </a>
 </p>
 
 <!-- Profile Headshot & DNA Archive Section -->
 <br/>
-<img src="assets/profile-photo.jpg" width="160" alt="Ajinkya Swami" style="border-radius: 50%; border: 3px solid #39FF14; box-shadow: 0 0 20px rgba(57, 255, 20, 0.4);" />
+<a href="https://linkedin.com/in/ajinkya-swami-82751b191">
+  <img src="assets/profile-photo-circle.png" width="180" alt="Ajinkya Swami" />
+</a>
 <br/><br/>
 <img src="assets/amber-logo.svg" width="110" alt="Amber Crystal Mosquito" />
 <h2 style="font-family: 'Orbitron', sans-serif; color: #39FF14; letter-spacing: 2px;">DNA ARCHIVE: SWAMI, AJINKYA</h2>
-<p style="color: #F5B301; font-family: monospace; font-size: 13px;"><b>QA ENGINEER // AUTOMATION & SECURITY CONTAINMENT SPECIALIST</b></p>
+<p style="color: #F5B301; font-family: monospace; font-size: 13px;"><b>QA ENGINEER // AUTOMATION &amp; SECURITY CONTAINMENT SPECIALIST</b></p>
 
 <!-- DNA Divider SVG -->
 <img src="assets/dna-divider.svg" width="100%" alt="DNA Helix Divider" />
