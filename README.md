@@ -19,7 +19,18 @@
   <a href="https://www.toolique.in">
     <img src="https://img.shields.io/badge/AUTOMATION_INTEGRITY-99.5%25-F5B301?style=for-the-badge&logo=speedtest&logoColor=black" alt="Automation Integrity" />
   </a>
+  <a href="mailto:ajinkyaswami1999@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL_TERMINAL-ajinkyaswami1999%40gmail.com-00758f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Terminal" />
+  </a>
 </p>
+
+<!-- Profile Headshot & DNA Archive Section -->
+<br/>
+<img src="assets/profile-photo.jpg" width="160" alt="Ajinkya Swami" style="border-radius: 50%; border: 3px solid #39FF14; box-shadow: 0 0 20px rgba(57, 255, 20, 0.4);" />
+<br/><br/>
+<img src="assets/amber-logo.svg" width="110" alt="Amber Crystal Mosquito" />
+<h2 style="font-family: 'Orbitron', sans-serif; color: #39FF14; letter-spacing: 2px;">DNA ARCHIVE: SWAMI, AJINKYA</h2>
+<p style="color: #F5B301; font-family: monospace; font-size: 13px;"><b>QA ENGINEER // AUTOMATION & SECURITY CONTAINMENT SPECIALIST</b></p>
 
 <!-- DNA Divider SVG -->
 <img src="assets/dna-divider.svg" width="100%" alt="DNA Helix Divider" />
@@ -30,16 +41,73 @@
 
 ## 🧬 Welcome to the Jurassic QA Control Room
 
-```
-[SYSTEM LOG: 2026-07-01 16:30:00]
-> Initializing security console...
-> Establishing handshake with Payworld UPI Networks... [OK]
-> Establishing handshake with eKYC Biometric Peripherals... [OK]
-> Loading Automation Test Framework...
-> Pytest & Postman modules detected: Regression library active.
-> Zero containment leaks detected.
-> Life finds a way... Bugs face extinction.
-```
+<!-- macOS Terminal Window HUD -->
+<table width="100%" style="border-collapse: collapse; border: 1px solid #11251B; background-color: #08110C; border-radius: 8px; overflow: hidden;">
+  <tr style="background-color: #11251B; border-bottom: 1px solid #11251B;">
+    <td style="padding: 8px 14px; font-family: monospace; font-size: 13px;">
+      <span style="color: #FF5F56;">🔴</span> &nbsp; <span style="color: #FFBD2E;">🟡</span> &nbsp; <span style="color: #27C93F;">🟢</span> &nbsp;&nbsp;&nbsp;
+      <strong style="color: #39FF14; font-family: monospace;">jurassic-qa-control-center ~ terminal_v4.2.0</strong>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 16px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #FFFFFF; line-height: 1.65;">
+      <span style="color: #39FF14;">[SYSTEM LOG: 2026-07-21 12:12:00]</span><br/>
+      <span style="color: #F5B301;">> Initializing security console...</span><br/>
+      > Establishing handshake with Payworld UPI Networks... <span style="color: #39FF14; font-weight: bold;">[OK]</span><br/>
+      > Establishing handshake with eKYC Biometric Peripherals... <span style="color: #39FF14; font-weight: bold;">[OK]</span><br/>
+      > Loading Automation Test Framework...<br/>
+      > Pytest, Postman &amp; Python Requests modules detected: Regression library active.<br/>
+      > <span style="color: #39FF14; font-weight: bold;">Zero containment leaks detected. Grid Integrity: 99.5%</span><br/>
+      > <em>"Life finds a way... Bugs face extinction."</em>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Side-by-Side Holographic Cards -->
+<table width="100%" style="border-collapse: collapse; border: none; background-color: transparent;">
+  <tr>
+    <td width="50%" valign="top" style="padding: 4px; border: none;">
+      <table width="100%" style="border-collapse: collapse; border: 1px solid #11251B; background-color: #08110C; border-radius: 8px;">
+        <tr style="background-color: #11251B; border-bottom: 2px solid #39FF14;">
+          <td style="padding: 10px 14px; font-family: 'Orbitron', sans-serif; font-weight: bold; color: #39FF14; font-size: 13px;">
+            ⚡ AUTOMATION &amp; API CORE PADDOCK
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 14px; font-size: 12px; color: #FFFFFF; line-height: 1.6; font-family: monospace;">
+            • <strong>Core Genome:</strong> Python, Pytest, Postman, MySQL<br/>
+            • <strong>UPI Endpoint Coverage:</strong> 6+ backend APIs verified<br/>
+            • <strong>Load Testing:</strong> High-traffic concurrency validation<br/>
+            • <strong>Regression Suite:</strong> 150+ automated test cases<br/>
+            • <strong>Defect Mitigation:</strong> 80% reduction in production bugs
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="50%" valign="top" style="padding: 4px; border: none;">
+      <table width="100%" style="border-collapse: collapse; border: 1px solid #11251B; background-color: #08110C; border-radius: 8px;">
+        <tr style="background-color: #11251B; border-bottom: 2px solid #F5B301;">
+          <td style="padding: 10px 14px; font-family: 'Orbitron', sans-serif; font-weight: bold; color: #F5B301; font-size: 13px;">
+            🧬 BIOMETRIC &amp; eKYC CAPABILITIES
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 14px; font-size: 12px; color: #FFFFFF; line-height: 1.6; font-family: monospace;">
+            • <strong>Onboarding Funnel:</strong> 100% compliance test coverage<br/>
+            • <strong>Hardware Audits:</strong> 90%+ biometric device integration<br/>
+            • <strong>Log Analysis:</strong> 98% packet handshake efficiency<br/>
+            • <strong>Dynamic Rates Engine:</strong> 100% functional accuracy<br/>
+            • <strong>Data Integrity:</strong> 99.5% operational persistence rate
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br/>
 
 ### 🦖 Professional Mission Statement
 
@@ -49,15 +117,7 @@ My expertise spans **Python automation**, **manual testing methodologies**, and 
 
 ---
 
-<div align="center">
-  <img src="assets/profile-photo.jpg" width="160" alt="Ajinkya Swami" style="border-radius: 50%; border: 3px solid #39FF14;" />
-  <br/><br/>
-  <!-- DNA logo / Amber Crystal -->
-  <img src="assets/amber-logo.svg" width="100" alt="Amber mosquito" />
-  <h3>DNA ARCHIVE: SWAMI, AJINKYA</h3>
-</div>
-
-### 🧬 DNA Profile
+### 🧬 DNA Profile Manifest
 
 Below is my professional core profile represented as an industrial laboratory YAML manifest. This catalog defines my skill classification, security clearance, and system assignments.
 
@@ -129,7 +189,7 @@ This dashboard visualizes the current real-time metrics of the automated contain
   </tr>
   <tr style="border-bottom: 1px solid #11251B;">
     <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 01: UPI Mobile App</td>
-    <td style="padding: 10px; color: #9CA3AF;">Functional & API Regression</td>
+    <td style="padding: 10px; color: #9CA3AF;">Functional &amp; API Regression</td>
     <td style="padding: 10px; font-family: monospace; color: #F5B301;">Postman / Python / MySQL</td>
     <td align="center" style="padding: 10px;">
       <code>[██████████████░] 98%</code>
@@ -138,7 +198,7 @@ This dashboard visualizes the current real-time metrics of the automated contain
   </tr>
   <tr style="border-bottom: 1px solid #11251B;">
     <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 02: eKYC Funnel</td>
-    <td style="padding: 10px; color: #9CA3AF;">Biometric Sync & Compliance</td>
+    <td style="padding: 10px; color: #9CA3AF;">Biometric Sync &amp; Compliance</td>
     <td style="padding: 10px; font-family: monospace; color: #F5B301;">Transmission Logs / Peripherals</td>
     <td align="center" style="padding: 10px;">
       <code>[███████████████] 100%</code>
@@ -156,7 +216,7 @@ This dashboard visualizes the current real-time metrics of the automated contain
   </tr>
   <tr style="border-bottom: 1px solid #11251B;">
     <td style="padding: 10px; font-weight: bold; color: #39FF14;">Paddock 04: Discovery Engines</td>
-    <td style="padding: 10px; color: #9CA3AF;">Search, AEO & GEO Failures</td>
+    <td style="padding: 10px; color: #9CA3AF;">Search, AEO &amp; GEO Failures</td>
     <td style="padding: 10px; font-family: monospace; color: #F5B301;">Google Search Console</td>
     <td align="center" style="padding: 10px;">
       <code>[███████████████] 100%</code>
@@ -165,7 +225,7 @@ This dashboard visualizes the current real-time metrics of the automated contain
   </tr>
   <tr>
     <td style="padding: 10px; font-weight: bold; color: #39FF14;">Control Room: Cross-System</td>
-    <td style="padding: 10px; color: #9CA3AF;">GST-Invoice & Payment Gateways</td>
+    <td style="padding: 10px; color: #9CA3AF;">GST-Invoice &amp; Payment Gateways</td>
     <td style="padding: 10px; font-family: monospace; color: #F5B301;">Jira / Agile Workflows</td>
     <td align="center" style="padding: 10px;">
       <code>[██████████████░] 99%</code>
@@ -192,40 +252,51 @@ This dashboard visualizes the current real-time metrics of the automated contain
 
 ## 🦖 Tech Arsenal
 
-The toolsets utilized in the Jurassic QA Lab are segmented by functional containment category. Each framework is calibrated for zero-latency testing.
+The toolsets utilized in the Jurassic QA Lab are segmented by functional containment category. Each framework is enclosed in card wrappers calibrated for zero-latency testing.
 
-### 💻 Programming & Database Genome
-<p align="left">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Badge" />
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge" />
-  <img src="https://img.shields.io/badge/sql-%2300758f?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23f7df1e" alt="JavaScript Badge" />
-  <img src="https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" />
-</p>
+<table width="100%" style="border-collapse: collapse; border: 1px solid #11251B; background-color: #08110C; border-radius: 8px;">
+  <tr>
+    <td style="padding: 16px;">
+      <h3 style="margin-top: 0; color: #39FF14; font-family: 'Orbitron', sans-serif;">💻 Programming &amp; Database Genome</h3>
+      <p align="left">
+        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Badge" />
+        <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge" />
+        <img src="https://img.shields.io/badge/sql-%2300758f?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge" />
+        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23f7df1e" alt="JavaScript Badge" />
+        <img src="https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" />
+        <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
+        <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
+      </p>
 
-### 🤖 Verification & Performance Diagnostics
-<p align="left">
-  <img src="https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white" alt="Postman Badge" />
-  <img src="https://img.shields.io/badge/api_testing-007acc?style=for-the-badge&logo=postman&logoColor=white" alt="API Testing" />
-  <img src="https://img.shields.io/badge/load_testing-E53935?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Load Testing" />
-  <img src="https://img.shields.io/badge/log_analysis-F5B301?style=for-the-badge&logo=speedtest&logoColor=black" alt="Log Analysis" />
-</p>
+      <h3 style="color: #F5B301; font-family: 'Orbitron', sans-serif;">🤖 Verification &amp; Performance Diagnostics</h3>
+      <p align="left">
+        <img src="https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white" alt="Postman Badge" />
+        <img src="https://img.shields.io/badge/api_testing-007acc?style=for-the-badge&logo=postman&logoColor=white" alt="API Testing" />
+        <img src="https://img.shields.io/badge/load_testing-E53935?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Load Testing" />
+        <img src="https://img.shields.io/badge/log_analysis-F5B301?style=for-the-badge&logo=speedtest&logoColor=black" alt="Log Analysis" />
+        <img src="https://img.shields.io/badge/biometric_testing-39FF14?style=for-the-badge&logo=smartthings&logoColor=black" alt="Biometric Testing" />
+      </p>
 
-### 📈 AI & Search Engine Optimization
-<p align="left">
-  <img src="https://img.shields.io/badge/google_search_console-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Search Console" />
-  <img src="https://img.shields.io/badge/seo-39FF14?style=for-the-badge&logo=google-analytics&logoColor=black" alt="SEO" />
-  <img src="https://img.shields.io/badge/aeo-F5B301?style=for-the-badge&logo=openai&logoColor=black" alt="AEO" />
-  <img src="https://img.shields.io/badge/geo_optimization-E53935?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GEO" />
-</p>
+      <h3 style="color: #39FF14; font-family: 'Orbitron', sans-serif;">📈 AI, Search &amp; Discovery Optimization</h3>
+      <p align="left">
+        <img src="https://img.shields.io/badge/google_search_console-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Search Console" />
+        <img src="https://img.shields.io/badge/seo-39FF14?style=for-the-badge&logo=google-analytics&logoColor=black" alt="SEO" />
+        <img src="https://img.shields.io/badge/aeo-F5B301?style=for-the-badge&logo=openai&logoColor=black" alt="AEO" />
+        <img src="https://img.shields.io/badge/geo_optimization-E53935?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GEO" />
+        <img src="https://img.shields.io/badge/prompt_engineering-8E44AD?style=for-the-badge&logo=openai&logoColor=white" alt="Prompt Engineering" />
+      </p>
 
-### ⚙️ Methodologies, Platforms & Tools
-<p align="left">
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
-  <img src="https://img.shields.io/badge/jira-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Badge" />
-  <img src="https://img.shields.io/badge/agile_scrum-0d1e15?style=for-the-badge&logo=scrumalliance&logoColor=white" alt="Agile Scrum" />
-</p>
+      <h3 style="color: #F5B301; font-family: 'Orbitron', sans-serif;">⚙️ Methodologies, Platforms &amp; Tools</h3>
+      <p align="left">
+        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge" />
+        <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
+        <img src="https://img.shields.io/badge/jira-%230052CC.svg?style=for-the-badge&logo=jira&logoColor=white" alt="Jira Badge" />
+        <img src="https://img.shields.io/badge/agile_scrum-0d1e15?style=for-the-badge&logo=scrumalliance&logoColor=white" alt="Agile Scrum" />
+        <img src="https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -298,7 +369,7 @@ These charts analyze the historical metrics and language ratios processed inside
 <br/>
 
 <div align="center">
-  <h3>LABORATORY SECTOR ACTIVITY GRAPH</h3>
+  <h3 style="font-family: 'Orbitron', sans-serif; color: #39FF14;">LABORATORY SECTOR ACTIVITY GRAPH</h3>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ajinkyaswami1999&theme=react-dark&hide_border=true&bg_color=08110c&color=39ff14&line=39ff14&point=f5b301" width="100%" alt="Activity Graph" />
 </div>
 
@@ -495,11 +566,11 @@ Below are the detailed security containment assignments successfully verified in
 
 The laboratory repositories are cataloged by operational sector:
 
-1. **[ajinkyaswami1999/ajinkyaswami1999](file:///c:/AJINKYA/Personal/Projects/Git profile/README.md) [ACTIVE Sector]**
+1. **[ajinkyaswami1999/ajinkyaswami1999](https://github.com/ajinkyaswami1999/ajinkyaswami1999) [ACTIVE Sector]**
    - The central control room configuration and security directory containing global stats and animations.
-2. **`ajinkyaswami1999/toolique-core`**
+2. **[ajinkyaswami1999/toolique-core](https://github.com/ajinkyaswami1999)**
    - Sector 4 core: Next.js utilities and microservices.
-3. **`ajinkyaswami1999/voxelique-core`**
+3. **[ajinkyaswami1999/voxelique-core](https://github.com/ajinkyaswami1999)**
    - Sector 4 core: e-commerce storefront for 3D printed products.
 
 ---
