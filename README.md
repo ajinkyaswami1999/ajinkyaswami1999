@@ -395,8 +395,8 @@ The following installations represent real-world software packages built to solv
 <table width="100%" style="border-collapse: collapse; border: 1px solid #11251B; background-color: #08110C;">
   <!-- Project 1: Toolique -->
   <tr style="border-bottom: 2px solid #11251B;">
-    <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
-      <img src="assets/warning.svg" width="120" alt="Toolique Icon" /><br/><br/>
+    <td width="35%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
+      <img src="assets/toolique-preview.png" width="100%" style="border-radius: 6px; border: 1px solid #F5B301;" alt="Toolique Preview" /><br/><br/>
       <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">🛠️ TOOLIQUE</strong><br/>
       <small style="color: #9CA3AF;">Multi-Purpose Web Utilities</small>
     </td>
@@ -416,8 +416,8 @@ The following installations represent real-world software packages built to solv
 
   <!-- Project 2: Voxelique -->
   <tr style="border-bottom: 2px solid #11251B;">
-    <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
-      <img src="assets/dinosaur.svg" width="120" alt="Voxelique Icon" /><br/><br/>
+    <td width="35%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
+      <img src="assets/voxelique-preview.png" width="100%" style="border-radius: 6px; border: 1px solid #39FF14;" alt="Voxelique Preview" /><br/><br/>
       <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">📦 VOXELIQUE</strong><br/>
       <small style="color: #9CA3AF;">3D Printed E-Commerce</small>
     </td>
@@ -437,8 +437,8 @@ The following installations represent real-world software packages built to solv
 
   <!-- Project 3: Jurassic Portfolio -->
   <tr>
-    <td width="30%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
-      <img src="assets/amber-logo.svg" width="120" alt="Jurassic Portfolio Icon" /><br/><br/>
+    <td width="35%" align="center" valign="middle" style="padding: 15px; background-color: #11251B; border-right: 1px solid #11251B;">
+      <img src="assets/jurassic-portfolio-preview.png" width="100%" style="border-radius: 6px; border: 1px solid #F5B301;" alt="Jurassic HUD Preview" /><br/><br/>
       <strong style="color: #F5B301; font-family: 'Orbitron', sans-serif;">🦖 JURASSIC HUD</strong><br/>
       <small style="color: #9CA3AF;">Clearance Profile</small>
     </td>
