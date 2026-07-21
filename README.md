@@ -50,8 +50,10 @@ My expertise spans **Python automation**, **manual testing methodologies**, and 
 ---
 
 <div align="center">
+  <img src="assets/profile-photo.jpg" width="160" alt="Ajinkya Swami" style="border-radius: 50%; border: 3px solid #39FF14;" />
+  <br/><br/>
   <!-- DNA logo / Amber Crystal -->
-  <img src="assets/amber-logo.svg" width="150" alt="Amber mosquito" />
+  <img src="assets/amber-logo.svg" width="100" alt="Amber mosquito" />
   <h3>DNA ARCHIVE: SWAMI, AJINKYA</h3>
 </div>
 
